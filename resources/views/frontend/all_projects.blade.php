@@ -33,7 +33,7 @@
 					</div>
 					<!-- Card body -->
 					<div class="card-body px-0 pb-0">
-						<h5 class="mb-0"><a href="#" class="heading-color stretched-link">UI/UX Enhancement for SnapMedia</a></h5>
+						<h5 class="mb-0">UI/UX Enhancement for SnapMedia</h5>
 						<small>UI/UX design</small>
 					</div>
 				</div>
@@ -53,7 +53,7 @@
 					</div>
 					<!-- Card body -->
 					<div class="card-body px-0 pb-0">
-						<h5 class="mb-0"><a href="#" class="heading-color stretched-link">Website Optimization for TechWave</a></h5>
+						<h5 class="mb-0">Website Optimization for TechWave</h5>
 						<small>Web design</small>
 					</div>
 				</div>
@@ -73,7 +73,7 @@
 					</div>
 					<!-- Card body -->
 					<div class="card-body px-0 pb-0">
-						<h5 class="mb-0"><a href="#" class="heading-color stretched-link">Chasing Dreams and Creating Art</a></h5>
+						<h5 class="mb-0">Chasing Dreams and Creating Art</h5>
 						<small>Branding</small>
 					</div>
 				</div>
@@ -93,7 +93,7 @@
 					</div>
 					<!-- Card body -->
 					<div class="card-body px-0 pb-0">
-						<h5 class="mb-0"><a href="#" class="heading-color stretched-link">The Art of Storytelling</a></h5>
+						<h5 class="mb-0">The Art of Storytelling</h5>
 						<small>Graphics design</small>
 					</div>
 				</div>
@@ -113,7 +113,7 @@
 					</div>
 					<!-- Card body -->
 					<div class="card-body px-0 pb-0">
-						<h5 class="mb-0"><a href="#" class="heading-color stretched-link">Transforming Ideas into Reality</a></h5>
+						<h5 class="mb-0">Transforming Ideas into Reality</h5>
 						<small>Marketing</small>
 					</div>
 				</div>

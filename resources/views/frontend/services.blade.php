@@ -38,8 +38,11 @@
 
         <!-- =======================
         Services START -->
-        <section class="pb-0">
+        <section class="pb-0 pt-6">
             <div class="container" data-sticky-container>
+                <div class="inner-container-small text-center pb-2">
+                    <h2 class="mb-4">خدماتنا</h2>
+                </div>
                 <div class="row">
                     <!-- Title and content -->
                     <div class="col-lg-4 mb-5">
