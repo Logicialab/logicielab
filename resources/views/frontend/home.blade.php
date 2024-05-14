@@ -40,18 +40,19 @@ Main Banner START -->
 					<span class="heading-color d-inline-block bg-light small rounded-3 px-3 py-2">🤩 لوجيسيل لاب هي شريكك الموثوق</span>
 
 					<!-- Title -->
-					<h1 class="mt-3 lh-base">مرحبا بك لدى شريكك المثالي 
+					<h1 class="mt-3 lh-base">مرحبا بك لدى شريكك المثالي
 						<span class="cd-headline clip big-clip is-full-width text-primary mb-0 d-block d-xxl-inline-block">
 							لتكبير وإنجاح مشروعك في العالم الرقمي
 						</span>
 					</h1>
-					<p class="mb-0 mt-4 mt-md-5">في شركة لوجسيل لاب، نؤمن بقوة التكنلوجيا في تحقيق النجاح، وندرك أهمية التواجد الرقمي للنهوض بالمشاريع ومضاعفة أرباحها، لذلك نقدم مجموعة شاملة من الخدمات المتكاملة والحلول الرقمية المبتكرة.</p>
+					<p class="mb-0 mt-4 mt-md-5">في شركة لوجسيل لاب، نؤمن بقوة التكنلوجيا في تحقيق النجاح، وندرك أهمية التواجد الرقمي للنهوض بالمشاريع ومضاعفة أرباحها، لذلك نقدم لكم خدمات شاملة بجودة عالية تجعل اختياركم لنا، هو خطوتكم الأولى نحو تحقيق النجاح الرقمي.</p>
 
 					<!-- Search -->
-					<form class="col-md-10 bg-body border rounded-2 position-relative p-2 mt-4 mt-md-5">
+					<form class="col-md-10 position-relative p-2 mt-4 mt-md-5">
 						<div class="input-group">
-							<input class="form-control focus-shadow-none border-0 me-1" type="email" placeholder="أدخل عنوان بريدك الالكتروني">
-							<button type="button" class="btn btn-dark rounded-2 mb-0">احصل على عرض سعر مجاني</button>
+							<button type="button" class="btn btn-dark rounded-2 mb-0">
+								<a class="text-white" href="/contact">ابدأ رحلة نجاحك الآن</a>
+							</button>
 						</div>
 					</form>
 
@@ -79,7 +80,7 @@ Main Banner START -->
 						</div>
 
 				
-					</div> <!-- Row END -->
+					</div>
 				</div>
 			</div>
 			<!-- Hero content END -->

@@ -19,12 +19,12 @@
         <div class="container position-relative">
             <!-- Title -->
             <div class="inner-container-small text-center">
-                <span class="bg-light heading-color small rounded-3 px-3 py-2">🚀  نقدم خدمات و حلول مبتكرة </span>
-                <h2 class="mb-0 mt-4">نحن متخصصون في الخدمات التالية</h2>
+                <span class="bg-light heading-color small rounded-3 px-3 py-2">🚀  الخدمات التي نقدّم</span>
+                <h2 class="mb-0 mt-4">حلول وخدمات شاملة ومتكاملة ترافقك خطوة خطوة حتى تحقيق نجاحك الرقمي</h2>
             </div>
     
             <!-- Service list START -->
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 gy-5 gy-md-7 mt-3">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 gy-5 gy-md-7 mt-3 d-flex justify-content-center">
                 <!-- Service item -->
                 <div class="col">
                     <div class="card bg-light h-100">
@@ -37,9 +37,7 @@
                             <h5 class="mb-3">خدمات العلامة التجارية</h5>
                             <p>تنمية العلامات التجارية عبر الإنترنت من خلال القنوات الرقمية.</p>
                         </div>
-                        {{-- <div class="card-footer bg-light mt-auto pt-2">
-                            <a class="icon-link icon-link-hover" href="#">Know more<i class="bi bi-arrow-right"></i> </a>
-                        </div> --}}
+                      
                     </div>
                 </div>
     
@@ -53,7 +51,7 @@
                             </div>
                             <!-- Content -->
                             <h5 class="mb-3">خدمات التسويق الالكتروني</h5>
-                            <p>حفز النمو من خلال خدمات التسويق الإلكتروني الإستراتيجية</p>
+                            <p>استراتيجيات تسويق  فعالة وحملات إعلانية مدروسة</p>
                         </div>
                         {{-- <div class="card-footer bg-light mt-auto pt-2">
                             <a class="icon-link icon-link-hover" href="#">Know more<i class="bi bi-arrow-right"></i> </a>
@@ -71,7 +69,7 @@
                             </div>
                             <!-- Content -->
                             <h5 class="mb-3"> خدمات تطبيقات سطح المكتب</h5>
-                            <p>حلول تطبيقات سطح المكتب المخصصة لتحقيق الكفاءة والأداء</p>
+                            <p>تقديم حلول تطبيقات سطح المكتب مخصصة لتلبية احتياجاتك</p>
                         </div>
                         {{-- <div class="card-footer bg-light mt-auto pt-2">
                             <a class="icon-link icon-link-hover" href="#">Know more<i class="bi bi-arrow-right"></i> </a>
@@ -87,8 +85,8 @@
                                 <i class="bi bi-vector-pen fa-fw fs-5"></i>
                             </div>
                             <!-- Content -->
-                            <h5 class="mb-3">خدمات التصميم الجرافيكي المختلفة</h5>
-                            <p>إنشاء واجهات مستخدم فعالة وممتعة.</p>
+                            <h5 class="mb-3">خدمات التصميم الجرافيكي </h5>
+                            <p>تصميم محترف يعزز جاذبية علامتك التجارية </p>
                         </div>
                         {{-- <div class="card-footer bg-light mt-auto pt-2">
                             <a class="icon-link icon-link-hover" href="#">Know more<i class="bi bi-arrow-right"></i> </a>
@@ -106,7 +104,7 @@
                             </div>
                             <!-- Content -->
                             <h5 class="mb-3">خدمات تطبيقات الجوال</h5>
-                            <p>خدمات تطبيقات الهاتف المحمول المصممة خصيصًا لتلبية احتياجاتك</p>
+                            <p>حلول مبتكرة لتصميم تطبيقات الهاتف بأداء فعال</p>
                         </div>
                         {{-- <div class="card-footer bg-light mt-auto pt-2">
                             <a class="icon-link icon-link-hover" href="#">Know more<i class="bi bi-arrow-right"></i> </a>
@@ -124,7 +122,7 @@
                             </div>
                             <!-- Content -->
                             <h5 class="mb-3">خدمات الاستضافة</h5>
-                            <p>استكشف خدمات الاستضافة الموثوقة لعمليات سلسة عبر الإنترنت</p>
+                            <p>ضمان توفر موقعك على الإنترنت بشكل مستمر وموثوق</p>
                         </div>
                         {{-- <div class="card-footer bg-light mt-auto pt-2">
                             <a class="icon-link icon-link-hover" href="#">Know more<i class="bi bi-arrow-right"></i> </a>
@@ -140,7 +138,7 @@
                             <div class="icon-lg bg-white text-primary rounded-circle mb-4 mt-n5"><i class="bi bi-code-slash fa-fw fs-5"></i></div>
                             <!-- Content -->
                             <h5 class="mb-3">خدمات تطبيقات الويب</h5>
-                            <p>بناء وصيانة المواقع وتطبيقات الويب.</p>
+                            <p>بناء وصيانة المواقع وتطبيقات الويب</p>
                         </div>
                         {{-- <div class="card-footer bg-light mt-auto pt-2">
                             <a class="icon-link icon-link-hover" href="#">Know more<i class="bi bi-arrow-right"></i> </a>
@@ -158,7 +156,7 @@
                             </div>
                             <!-- Content -->
                             <h5 class="mb-3">خدمات الدعم الفني</h5>
-                            <p>خلق علامات تجارية فريدة من نوعها</p>
+                            <p>ضمان استمرارية ونجاح خدماتنا بعد التنفيذ</p>
                         </div>
                         {{-- <div class="card-footer bg-light mt-auto pt-2">
                             <a class="icon-link icon-link-hover" href="#">Know more<i class="bi bi-arrow-right"></i> </a>

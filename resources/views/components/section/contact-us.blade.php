@@ -31,34 +31,14 @@
                         <h4 class="text-white text-center">إذا كنت تبحث عن النجاح والفرص للنمو والتطور، فأنت في المكان الصحيح!
                             تواصل معنا وابدأ رحلة تحويل أفكارك وتصورك إلى واقع.
                             </h4>
-    
-                        <!-- Search -->
-                        {{-- <form class="col-md-10 bg-body rounded-2 p-2 mt-4">
-                            <div class="input-group">
-                                <input class="form-control focus-shadow-none border-0 me-1" type="email" placeholder="Your email address">
-                                <button type="button" class="btn btn-dark rounded-2">Subscribe</button>
-                            </div>
-                        </form> --}}
+                         
+                    </div>
+                    <div class="mt-0">
+                        <button type="button" class="btn btn-dark rounded-2 float-left" style="float: left"><a href="/contact" class="text-white">تواصل معنا</a></button>
                     </div>
     
                     <!-- Content -->
-                    {{-- <div class="col-lg-5 col-xl-4 ms-auto text-lg-end">
-                        <ul class="list-group list-group-borderless mb-0">
-                            <li class="list-group-item mb-0">
-                                <a href="#" class="text-white fw-normal">
-                                    <i class="bi bi-headset me-1"></i> Call on: 0125 258 993 22
-                              </a>
-                            </li>
-                            <li class="list-group-item text-white fw-normal mb-0">
-                                <i class="bi bi-clock me-1"></i> Time: 9am to 5pm (Sunday close)
-                            </li>
-                            <li class="list-group-item mb-0">
-                                <a href="#" class="text-white fw-normal">
-                                    <i class="bi bi-envelope me-1"></i> Email: example@gmail.com
-                              </a>
-                            </li>
-                        </ul>
-                    </div> --}}
+               
                 </div> <!-- Row END -->
             </div>
         </div>

@@ -16,7 +16,7 @@ Main Banner START -->
 				<!-- Hero title -->
 				<span class="font-heading heading-color d-inline-block bg-light px-3 py-2 rounded-3 mb-4">🤩 تعرف علينا	</span>
 				<h1 class="mb-4">لوجيسيل لاب هي شريكك الموثوق لتحقيق نجاحك في العالم الرقمي!</h1>
-				<p class="lead mb-0">في شركة لوجسيل لاب، نؤمن بقوة التكنلوجيا في تحقيق النجاح، وندرك أهمية التواجد الرقمي للنهوض بالمشاريع ومضاعفة أرباحها، لذلك نقدم مجموعة شاملة من الخدمات المتكاملة والحلول الرقمية المبتكرة، التي تساعد عملاءنا على تحقيق أهدافهم بشكل فعال  وتعزيز تواجدهم الرقمي بأفضل طريقة ممكنة,
+				<p class="lead mb-0">في شركة لوجسيل لاب، نؤمن بقوة التكنلوجيا في تحقيق النجاح، وندرك أهمية التواجد الرقمي للنهوض بالمشاريع ومضاعفة أرباحها، لذلك نقدم مجموعة شاملة من الخدمات المتكاملة والحلول الرقمية المبتكرة، التي تساعد عملاءنا على تحقيق أهدافهم بشكل فعال  وتعزيز تواجدهم الرقمي بأفضل طريقة ممكنة.
 				</p>
 
 				<!-- Image and content START -->
@@ -127,7 +127,7 @@ Main Banner START -->
 						<!-- Goal -->
 						<div class="card card-body bg-dark text-start z-index-2 w-75 p-5 mb-4">
 							<span class="text-white">هدفنا:</span>
-							<h4 class="text-white fw-light mb-0 mt-3">"نحن نؤمن بأن الأمر يتطلب أشخاصًا رائعين لتقديم منتج رائع"</h4>
+							<h4 class="text-white fw-light mb-0 mt-3">حِرصُنا على تقديم خدمات شاملة ومتكاملة بجودة عالية، يعكس سعينا لتلبية جميع احتياجاتكم وتعدي توقعاتكم..</h4>
 						</div>
 
 						<!-- Image -->
@@ -165,8 +165,8 @@ Content and value START -->
 									<path d="M15 16.75H9M14.25 11.75V11.75C14.6642 11.75 15 12.0858 15 12.5V12.5C15 12.9142 14.6642 13.25 14.25 13.25V13.25C13.8358 13.25 13.5 12.9142 13.5 12.5V12.5C13.5 12.0858 13.8358 11.75 14.25 11.75ZM9.75 11.75V11.75C10.1642 11.75 10.5 12.0858 10.5 12.5V12.5C10.5 12.9142 10.1642 13.25 9.75 13.25V13.25C9.33579 13.25 9 12.9142 9 12.5V12.5C9 12.0858 9.33579 11.75 9.75 11.75Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 								</svg>
 							</figure>
-							<h6>التميز</h6>
-							<p class="mb-0">نقدم الأفضل في كل خدماتنا، ونحرص على التميز لنفوق كل التوقعات</p>
+							<h6>رؤيتنا</h6>
+							<p class="mb-0"> نطمح لأن نكون الأفضل في مجالنا، ونسعى لتصبح لوجيسيل لاب أحد أكبر مصادر الحلول الرقمية بالمنطقة، من خلال تقديم خدمات بمواصفات عالمية، حتى نكون عنوانًا للجودة والإتقان والتميز.</p>
 						</div>
 
 						<div class="card card-body bg-light p-4 mt-5">
@@ -178,8 +178,8 @@ Content and value START -->
 									<path d="M10.5 11.5L12 14L13.5 11.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 								</svg>
 							</figure>
-							<h6>الابتكار</h6>
-							<p class="mb-0">نؤمن أن الابتكار هو أساس النجاح، ونسعى لتعزيز الإبداع لنكون الأفضل</p>
+							<h6>رسالتنا</h6>
+							<p class="mb-0">في لوجيسيل لاب، نعتبر نجاحَكم هو نجاحَنا، ونلتزم بتقديم أفضل الحلول الرقمية والاستشارات التي تناسب احتياجاتكم،  بالاعتماد على  أحدث التقنيات والأساليب، مع الحرص على تحقيق أعلى معايير الجودة والرضا لكل عميل.</p>
 						</div>
 					</div>
 		
@@ -193,8 +193,8 @@ Content and value START -->
 									<path fill-rule="evenodd" clip-rule="evenodd" d="M9.25035 5C9.25035 3.48122 10.4816 2.25 12.0003 2.25C13.5191 2.25 14.7503 3.48122 14.7503 5C14.7503 6.25878 13.9046 7.32002 12.7503 7.64648V8.24568L19.3266 10.8794C20.1324 11.2021 20.5353 11.3635 20.594 11.6181C20.6121 11.6967 20.611 11.7785 20.5907 11.8565C20.5248 12.1094 20.1176 12.2594 19.3031 12.5594L12.3115 15.1351C12.1748 15.1854 12.1065 15.2106 12.0356 15.2156C12.0121 15.2172 11.9886 15.2172 11.9651 15.2156C11.8942 15.2106 11.8259 15.1854 11.6892 15.1351L4.6976 12.5594C3.88311 12.2594 3.47586 12.1094 3.41002 11.8565C3.38969 11.7785 3.38855 11.6967 3.40668 11.6181C3.46543 11.3635 3.86832 11.2021 4.6741 10.8794L11.2503 8.24568V7.64648C10.0961 7.32002 9.25035 6.25878 9.25035 5Z" fill="currentColor"/>
 								</svg>
 							</figure>
-							<h6>الالتزام</h6>
-							<p class="mb-0">نلتزم بوعودنا، ونقدم أعلى مستويات الجودة بخدمات تلبي جميع احتياجاتكم</p>
+							<h6>قيمنا</h6>
+							<p class="mb-0">نؤمن أن الجودة والإبداع والتميز هم أساس النجاح، لذلك نجمع في فريقنا بين الخبرة الكبيرة والاابتكار والالتزام، للوصول إلى نتائج تتجاوز توقعاتكم.</p>
 						</div>
 
 						<div class="card card-body bg-light p-4 mt-5">
@@ -205,8 +205,8 @@ Content and value START -->
 									<path d="M14.5 19.25C14.5 20.6307 13.3807 21.75 12 21.75C10.6193 21.75 9.5 20.6307 9.5 19.25C9.5 17.8693 10.6193 16.75 12 16.75C13.3807 16.75 14.5 17.8693 14.5 19.25Z" fill="currentColor"/>
 								</svg>
 							</figure>
-							<h6>العمل الجماعي التعاوني</h6>
-							<p class="mb-0">نؤمن بأن أفضل النتائج تولد من تضافر الجهود المتنوعة</p>
+							<h6>الأمان </h6>
+							<p class="mb-0">نحن ندرك أهمية أمان موقعك على الويب. لذلك نحرص على توفير حماية قوية تشمل التشفير والمراقبة المستمرة لضمان أمان بياناتك ومعلوماتك.</p>
 						</div>
 					</div>
 				</div>
@@ -215,11 +215,10 @@ Content and value START -->
 			<!-- Content -->
 			<div class="col-lg-6 ps-xl-7">
 				<h2 class="mb-4">لماذا نحن؟</h2>
-				<p>في عالم مليء بالخيارات، تبرز لوجيسيل لاب كخيار مثالي ومتميز لكل من يسعى إلى النجاح الرقمي والنمو المستدام، فنحن نهتم بأدق التفاصيل، لنجعل اختياركم لنا، هو مفتاحكم لضمان تحقيق أهدافكم وتحويل أفكاركم إلى واقع </p>
-				<p>جودة وتميز: نضمن الجودة في كل تفاصيل خدماتنا، ونلتزم دائماً بتطبيق أحدث التقنيات والأساليب لتقديم أكثر الحلول الرقمية نجاحاً وفعالية.
-				</p>
-				<p>تجربة واسعة: نمتلك فريق عمل متخصصاً ومؤهلاً، يمتلك خبرة واسعة في جميع المجالات والتخصصات الرقمية، كما نحرص على تدريبه وتطويره بشكل مستمر لضمان مواكبتنا للتطور التكنولوجي السريع. 				</p>
-				<p class="mb-4">تخصيص الحلول: نؤمن أن كل عميل له أهداف واحتياجات متفرّدة، لذلك نقدم حلولًا مخصصة تتناسب مع احتياجات كل عميل بشكل دقيق ومدروس. 				</p>
+				<p class="text-black"> <strong>خدمات متكاملة:</strong> حرصنا على تقديم خدمات شاملة، يعكس سعينا لتلبية جميع احتياجات عملائنا، بدءاً من تطوير الفكرة إلى ترويجها وتسويقها، ووصولاً إلى خدمات ما بعد البيع.</p>
+				<p class="text-black"> <strong>جودة وتميز:</strong> نضمن الجودة في كل تفاصيل خدماتنا، ونلتزم دائماً بتطبيق أحدث التقنيات والأساليب لتقديم أكثر الحلول الرقمية نجاحاً وفعالية.</p>
+				<p class="text-black"><strong>تجربة واسعة:</strong> نمتلك فريق عمل متخصصاً ومؤهلاً، يمتلك خبرة واسعة في جميع المجالات والتخصصات الرقمية، كما نحرص على تدريبه وتطويره بشكل مستمر لضمان مواكبتنا للتطور التكنولوجي السريع.</p>
+				<p class="text-black mb-4"> <strong>تخصيص الحلول:</strong> نؤمن أن كل عميل له أهداف واحتياجات متفرّدة، لذلك نقدم حلولًا مخصصة تتناسب مع احتياجات كل عميل بشكل دقيق ومدروس. </p>
 				<!-- Button -->
 				<a class="btn btn-dark me-3 mb-0" href="/services">اكتشف الخدمات!</a>
 				<a class="icon-link icon-link-hover" href="/contact">الحصول على الخدمة<i class="bi bi-arrow-right"></i> </a>
@@ -230,6 +229,188 @@ Content and value START -->
 </section>
 <!-- =======================
 Content and value END -->
+
+
+<section class="pt-0">
+	<div class="container">
+		<div class="inner-container-small text-center mb-4 mb-sm-6">
+			<h2 class="mb-4">فريقنا المحترف </h2>
+		</div>
+		<div class="row g-4 g-sm-6">
+			<!-- Team item -->
+			<div class="col-sm-6 col-md-4 col-xl-3">
+				<div class="card card-img-scale bg-transparent overflow-hidden">
+					<!-- Social links -->
+					<div class="position-absolute top-0 end-0 z-index-2 m-3">
+						<ul class="list-inline mb-0 mb-2 mb-sm-0">
+							<li class="list-inline-item"> <a class="btn-icon btn-sm rounded mb-2 bg-instagram-gradient" href="#"><i class="fab fa-fw fa-instagram"></i></a> </li>
+						</ul>
+					</div>
+					<div class="card-img-scale-wrapper rounded-3">
+						<!-- Card Image -->              
+						<img src="assets/images/team/01.jpg" class="img-scale" alt="card image">
+					</div>
+					<!-- Card body -->
+					<div class="card-body text-center px-0 pb-0">
+						<h6 class="mb-0"><a href="#" class="stretched-link">Emma Watson</a></h6>
+						<small>Founder</small>
+					</div>
+				</div>
+			</div>
+
+			<!-- Team item -->
+			<div class="col-sm-6 col-md-4 col-xl-3">
+				<div class="card card-img-scale bg-transparent overflow-hidden">
+					<!-- Social links -->
+					<div class="position-absolute top-0 end-0 z-index-2 m-3">
+						<ul class="list-inline mb-0 mb-2 mb-sm-0">
+							<li class="list-inline-item"> <a class="btn-icon btn-sm rounded mb-2 bg-facebook" href="#"><i class="fab fa-fw fa-facebook-f"></i></a> </li>
+						</ul>
+					</div>
+					<div class="card-img-scale-wrapper rounded-3">
+						<!-- Card Image -->              
+						<img src="assets/images/team/02.jpg" class="img-scale" alt="card image">
+					</div>
+					<!-- Card body -->
+					<div class="card-body text-center px-0 pb-0">
+						<h6 class="mb-0"><a href="#" class="stretched-link">Allen Smith</a></h6>
+						<small>UI/UX designer</small>
+					</div>
+				</div>
+			</div>
+
+			<!-- Team item -->
+			<div class="col-sm-6 col-md-4 col-xl-3">
+				<div class="card card-img-scale bg-transparent overflow-hidden">
+					<!-- Social links -->
+					<div class="position-absolute top-0 end-0 z-index-2 m-3">
+						<ul class="list-inline mb-0 mb-2 mb-sm-0">
+							<li class="list-inline-item"> <a class="btn-icon btn-sm rounded mb-2 bg-twitter" href="#"><i class="fab fa-fw fa-twitter"></i></a> </li>
+							<li class="list-inline-item"> <a class="btn-icon btn-sm rounded mb-2 bg-linkedin" href="#"><i class="fab fa-fw fa-linkedin-in"></i></a> </li>
+						</ul>
+					</div>
+					<div class="card-img-scale-wrapper rounded-3">
+						<!-- Card Image -->              
+						<img src="assets/images/team/03.jpg" class="img-scale" alt="card image">
+					</div>
+					<!-- Card body -->
+					<div class="card-body text-center px-0 pb-0">
+						<h6 class="mb-0"><a href="#" class="stretched-link">Jacqueline Miller</a></h6>
+						<small>Human Resource</small>
+					</div>
+				</div>
+			</div>
+
+			<!-- Team item -->
+			<div class="col-sm-6 col-md-4 col-xl-3">
+				<div class="card card-img-scale bg-transparent overflow-hidden">
+					<!-- Social links -->
+					<div class="position-absolute top-0 end-0 z-index-2 m-3">
+						<ul class="list-inline mb-0 mb-2 mb-sm-0">
+							<li class="list-inline-item"> <a class="btn-icon btn-sm rounded mb-2 bg-facebook" href="#"><i class="fab fa-fw fa-facebook-f"></i></a> </li>
+							<li class="list-inline-item"> <a class="btn-icon btn-sm rounded mb-2 bg-instagram-gradient" href="#"><i class="fab fa-fw fa-instagram"></i></a> </li>
+						</ul>
+					</div>
+					<div class="card-img-scale-wrapper rounded-3">
+						<!-- Card Image -->              
+						<img src="assets/images/team/04.jpg" class="img-scale" alt="card image">
+					</div>
+					<!-- Card body -->
+					<div class="card-body text-center px-0 pb-0">
+						<h6 class="mb-0"><a href="#" class="stretched-link">Louis Ferguson</a></h6>
+						<small>Web Developer</small>
+					</div>
+				</div>
+			</div>
+
+			<!-- Team item -->
+			<div class="col-sm-6 col-md-4 col-xl-3">
+				<div class="card card-img-scale bg-transparent overflow-hidden">
+					<!-- Social links -->
+					<div class="position-absolute top-0 end-0 z-index-2 m-3">
+						<ul class="list-inline mb-0 mb-2 mb-sm-0">
+							<li class="list-inline-item"> <a class="btn-icon btn-sm rounded mb-2 bg-instagram-gradient" href="#"><i class="fab fa-fw fa-instagram"></i></a> </li> 
+						</ul>
+					</div>
+					<div class="card-img-scale-wrapper rounded-3">
+						<!-- Card Image -->              
+						<img src="assets/images/team/05.jpg" class="img-scale" alt="card image">
+					</div>
+					<!-- Card body -->
+					<div class="card-body text-center px-0 pb-0">
+						<h6 class="mb-0"><a href="#" class="stretched-link">Frances Guerrero</a></h6>
+						<small>Software Developer</small>
+					</div>
+				</div>
+			</div>
+
+			<!-- Team item -->
+			<div class="col-sm-6 col-md-4 col-xl-3">
+				<div class="card card-img-scale bg-transparent overflow-hidden">
+					<!-- Social links -->
+					<div class="position-absolute top-0 end-0 z-index-2 m-3">
+						<ul class="list-inline mb-0 mb-2 mb-sm-0">
+							<li class="list-inline-item"> <a class="btn-icon btn-sm rounded mb-2 bg-facebook" href="#"><i class="fab fa-fw fa-facebook-f"></i></a> </li>
+							<li class="list-inline-item"> <a class="btn-icon btn-sm rounded mb-2 bg-instagram-gradient" href="#"><i class="fab fa-fw fa-instagram"></i></a> </li>
+						</ul>
+					</div>
+					<div class="card-img-scale-wrapper rounded-3">
+						<!-- Card Image -->              
+						<img src="assets/images/team/06.jpg" class="img-scale" alt="card image">
+					</div>
+					<!-- Card body -->
+					<div class="card-body text-center px-0 pb-0">
+						<h6 class="mb-0"><a href="#" class="stretched-link">Lori Stevens</a></h6>
+						<small>Graphic designer</small>
+					</div>
+				</div>
+			</div>
+
+			<!-- Team item -->
+			<div class="col-sm-6 col-md-4 col-xl-3">
+				<div class="card card-img-scale bg-transparent overflow-hidden">
+					<!-- Social links -->
+					<div class="position-absolute top-0 end-0 z-index-2 m-3">
+						<ul class="list-inline mb-0 mb-2 mb-sm-0">
+							<li class="list-inline-item"> <a class="btn-icon btn-sm rounded mb-2 bg-twitter" href="#"><i class="fab fa-fw fa-twitter"></i></a> </li>
+						</ul>			
+					</div>
+					<div class="card-img-scale-wrapper rounded-3">
+						<!-- Card Image -->              
+						<img src="assets/images/team/07.jpg" class="img-scale" alt="card image">
+					</div>
+					<!-- Card body -->
+					<div class="card-body text-center px-0 pb-0">
+						<h6 class="mb-0"><a href="#" class="stretched-link">Samuel Bishop</a></h6>
+						<small>Product designer</small>
+					</div>
+				</div>
+			</div>
+
+			<!-- Team item -->
+			<div class="col-sm-6 col-md-4 col-xl-3">
+				<div class="card card-img-scale bg-transparent overflow-hidden">
+					<!-- Social links -->
+					<div class="position-absolute top-0 end-0 z-index-2 m-3">
+						<ul class="list-inline mb-0 mb-2 mb-sm-0">
+							<li class="list-inline-item"> <a class="btn-icon btn-sm rounded mb-2 bg-instagram-gradient" href="#"><i class="fab fa-fw fa-instagram"></i></a> </li>
+							<li class="list-inline-item"> <a class="btn-icon btn-sm rounded mb-2 bg-twitter" href="#"><i class="fab fa-fw fa-twitter"></i></a> </li>
+						</ul>
+					</div>
+					<div class="card-img-scale-wrapper rounded-3">
+						<!-- Card Image -->              
+						<img src="assets/images/team/08.jpg" class="img-scale" alt="card image">
+					</div>
+					<!-- Card body -->
+					<div class="card-body text-center px-0 pb-0">
+						<h6 class="mb-0"><a href="#" class="stretched-link">Amanda Reed</a></h6>
+						<small>Content writer</small>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
 <!-- =======================
 Testimonials START -->

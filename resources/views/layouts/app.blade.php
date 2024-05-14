@@ -122,16 +122,16 @@
 						<a class="nav-link{{ Request::is('/') ? ' active' : '' }}" href="/">الرئيسية</a>
 					</li>
 					<li class="nav-item">
+						<a class="nav-link{{ Request::is('about') ? ' active' : '' }}" href="/about">من نحن</a>
+					</li>
+					<li class="nav-item">
 						<a class="nav-link{{ Request::is('services') ? ' active' : '' }}" href="/services">خدماتنا</a>
 						
 					</li>
 					{{-- <li class="nav-item">
 						<a class="nav-link{{ Request::is('ourteam') ? ' active' : '' }}" href="/ourteam">فريقنا</a>
 					</li> --}}
-					<li class="nav-item">
-						<a class="nav-link{{ Request::is('about') ? ' active' : '' }}" href="/about">من نحن</a>
-						
-					</li>
+					
 					<li class="nav-item">
 						<a class="nav-link{{ Request::is('projects') ? ' active' : '' }}" href="/projects">أعمالنا</a>
 					</li>

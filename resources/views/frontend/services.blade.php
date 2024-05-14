@@ -44,7 +44,7 @@
                     <!-- Title and content -->
                     <div class="col-lg-4 mb-5">
                         <div data-sticky data-margin-top="80" data-sticky-for="576">
-                            <h2 class="mb-4">دعنا نبني أفضل الحلول الرقمية لعملك الآن! </h2>
+                            <h2 class="mb-4">اكتشف كيف يمكن لخدماتنا الرقمية أن تميز مشروعك في سوق المنافسة!</h2>
                             <p class="mb-4">بدعم من فريقنا الذي يسعى لتحقيق النتائج، يمكنك حل العديد من التحديات. </p>
                             <div class="text-center d-inline-block bg-dark rounded px-5 py-3">
                                 <span class="text-white">اعمل معنا؟ </span>
@@ -80,8 +80,7 @@
                                     </div>
 
                                     <div class="card-body p-0">
-                                        <h5 class="mb-3"><a href="/digital-marketing" class="stretched-link">خدمات
-                                                التسويق الالكتروني</a></h5>
+                                        <h5 class="mb-3">خدمات التسويق الالكتروني</h5>
                                         <p class="mb-0">اكتشف قوة التسويق الإلكتروني مع خدمتنا المبتكرة. نحن نقدم حلاً
                                             شاملاً لزيادة رؤيتك على الإنترنت وتعزيز نجاح عملك. مع التسويق الالكتروني، يمكنك
                                             الوصول إلى جمهور أوسع، وزيادة المبيعات، وتعزيز العلامة التجارية. </p>
@@ -115,8 +114,7 @@
                                     </div>
 
                                     <div class="card-body p-0">
-                                        <h5 class="mb-3"><a href="/web-design" class="stretched-link">تصميم
-                                                مواقع</a></h5>
+                                        <h5 class="mb-3">تصميم مواقع</h5>
                                         <p class="mb-0">احصل على موقع الكتروني متميز يلبي احتياجاتك وينمّي عملك مع خدمة
                                             تصميم مواقع الكترونية، من خلال موقع متجاوب يعمل بسلاسة على جميع الأجهزة وتصميم
                                             جذاب يلفت انتباه زوارك </p>
@@ -150,8 +148,7 @@
                                     </div>
 
                                     <div class="card-body p-0">
-                                        <h5 class="mb-3"><a href="/cloud-hosting" class="stretched-link"> خدمات
-                                                الاستضافة</a></h5>
+                                        <h5 class="mb-3">خدمات الاستضافة</h5>
                                         <p class="mb-0">هل تبحث عن منصة استضافة المواقع القوية تضمن لموقعك الإلكتروني
                                             الاستقرار والسرعة، نقدم لك خدمة استضافة المواقع الفريدة والمحترفة التي تلبي
                                             احتياجات موقعك بكفاءة عالية، اكتشف خدمة الاستضافة من لوجيسيل لاب واستمتع بتجربة
@@ -189,8 +186,7 @@
                                     </div>
 
                                     <div class="card-body p-0">
-                                        <h5 class="mb-3"><a href="/mobile-app-design" class="stretched-link">خدمات
-                                                تطبيقات الجوال</a></h5>
+                                        <h5 class="mb-3">خدمات تطبيقات الجوال</h5>
                                         <p class="mb-0">إذا كان هدفك هو امتلاك تطبيق لنشاطك التجاري، فبالتأكيد إن تصميم
                                             تطبيقات الجوال معنا في لوجيسيل لاب سيكون هو طريقك لتحقيق غايتك وزيادة مبيعاتك.
                                             نحن نقدم الحلول المبتكرة ورواد في تقديم خدمة تصميم تطبيقات الجوال على المنصات
@@ -221,8 +217,7 @@
                                     </div>
 
                                     <div class="card-body p-0">
-                                        <h5 class="mb-3"><a href="/application-desctop" class="stretched-link">خدمات تطبيقات سطح المكتب
-                                        </a></h5>
+                                        <h5 class="mb-3">خدمات تطبيقات سطح المكتب</a></h5>
                                         <p class="mb-0">نقدم خدمات تصميم وتطوير تطبيقات سطح المكتب بمهارة عالية وفقًا لأحدث التقنيات والمعايير العالمية. فريقنا المتخصص يعمل على تلبية احتياجات عملك وتحقيق أهدافه من خلال تطبيقات سطح المكتب المبتكرة والفعالة.</p>
                                     </div>
                                 </div>
@@ -249,7 +244,7 @@
                                     </div>
 
                                     <div class="card-body p-0">
-                                        <h5 class="mb-3"><a href="/design-services" class="stretched-link">خدمات تصميم الجرافيك</a></h5>
+                                        <h5 class="mb-3">خدمات تصميم الجرافيك</h5>
                                         <p class="mb-0"> نحن هنا لتحويل أفكارك إلى أعمال فنية مبتكرة وجذابة، مما يعزز تميز علامتك التجارية وجاذبيتها للعملاء باستخدام أحدث الأدوات والتقنيات، نقدم حلولاً مخصصة تلبي احتياجاتك وتساعد في تحقيق أهدافك التسويقية، فريقنا المحترف يضمن تقديم تصاميم مخصصة تعكس هوية علامتك التجارية بأسلوب مبتكر ومميز.</p>
                                     </div>
                                 </div>
@@ -276,11 +271,38 @@
                                     </div>
 
                                     <div class="card-body p-0">
-                                        <h5 class="mb-3"><a href="/technical-support" class="stretched-link">خدمات الدعم الفني</a></h5>
+                                        <h5 class="mb-3">خدمات الدعم الفني</h5>
                                         <p class="mb-0"> نحن هنا لضمان استمرارية عملك بكفاءة عالية، من خلال تقديم الدعم الفني المتميز والمخصص لتحدياتك التقنية. فريقنا متخصص في حل المشكلات وتوفير الحلول الفعّالة لضمان تجربة مستخدم سلسة ومرضية، نحن نقدم دعماً متعدد القنوات لضمان أنك تحصل على المساعدة على الفور.</p>
                                     </div>
                                 </div>
                             </div>
+
+                                  <!-- Card item -->
+                                  <div class="col-md-6">
+                                    <div class="card border bg-light p-5">
+                                        <!-- Card header -->
+                                        <div class="card-header bg-light p-0 mb-4">
+                                            <!-- Icon -->
+                                            <figure class="text-primary">
+                                                <svg width="50" height="50" viewBox="0 0 24 24" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M8 18V15M12 13V18M16 18V11M6.5 11.5L7.9646 9.7913C8.91547 8.68195 10.3837 8.16067 11.8212 8.42204V8.42204C13.812 8.78401 15.8538 8.14622 17.2846 6.71542L17.5 6.5"
+                                                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round"></path>
+                                                    <path
+                                                        d="M13.2 2.25H10.8C7.23775 2.25 5.45663 2.25 4.20802 3.15717C3.80477 3.45015 3.45015 3.80477 3.15717 4.20802C2.25 5.45663 2.25 7.23775 2.25 10.8V13.2C2.25 16.7622 2.25 18.5434 3.15717 19.792C3.45015 20.1952 3.80477 20.5499 4.20802 20.8428C5.45663 21.75 7.23775 21.75 10.8 21.75H13.2C16.7622 21.75 18.5434 21.75 19.792 20.8428C20.1952 20.5499 20.5499 20.1952 20.8428 19.792C21.75 18.5434 21.75 16.7622 21.75 13.2V10.8C21.75 7.23775 21.75 5.45663 20.8428 4.20802C20.5499 3.80477 20.1952 3.45015 19.792 3.15717C18.5434 2.25 16.7622 2.25 13.2 2.25Z"
+                                                        fill="currentColor" fill-opacity="0.25"></path>
+                                                </svg>
+                                            </figure>
+                                        </div>
+    
+                                        <div class="card-body p-0">
+                                            <h5 class="mb-3">خدمات العلامة التجارية</h5>
+                                            <p class="mb-0">تشمل خدمات العلامة التجارية مجموعة من الحلول الإستراتيجية والإبداعية المصممة لبناء هوية علامتك التجارية وتعزيزها والارتقاء بها. بدءًا من استراتيجية العلامة التجارية وتحديد موضعها وحتى تصميم الهوية المرئية والرسائل وتحسين تجربة العلامة التجارية</p>
+                                        </div>
+                                    </div>
+                                </div>
 
                         </div> <!-- Row END -->
                     </div>
@@ -297,19 +319,18 @@
             <div class="container">
                 <!-- Title -->
                 <div class="inner-container-small text-center mb-4 mb-sm-6">
-                    <h2>الميزة الأساسية</h2>
-                    <p class="mb-0">تُعتبر هذه الميزات عادةً العناصر الأساسية التي يُبنى عليها تصميم وتطوير المنتج أو
-                        الخدمة، وتشمل وظائفها الرئيسية والميزات الفريدة التي تجعلها تبرز بين المنافسين</p>
+                    <h2 class="mb-4">الجودة عنواننا ورضاكم غايتنا</h2>
+                    <p class="mb-0">نفخر بتقديم حلول رقمية شاملة ومتميزة تلبي احتياجات عملائنا بكل احترافية، من أجل تعزيز تأثيرهم الرقمي وتحسين ظهورهم وتطوير استراتيجياتهم.</p>
                 </div>
 
                 <!-- Feature START -->
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-5 g-lg-6">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-5 g-lg-6 mb-6">
                     <!-- item -->
                     <div class="col">
                         <div class="card card-body bg-transparent text-center p-0">
                             <span class="h4 text-primary"><i class="bi bi-chat-left-dots"></i></span>
-                            <h6 class="mb-2">دعم متعدد اللغات </h6>
-                            <p class="mb-0">يتضمن تنفيذ الدعم متعدد اللغات.</p>
+                            <h6 class="mb-2">التميز</h6>
+                            <p class="mb-0">نقدم الأفضل في كل خدماتنا، ونحرص على التميز لنفوق كل التوقعات</p>
                         </div>
                     </div>
 
@@ -317,8 +338,8 @@
                     <div class="col">
                         <div class="card card-body bg-transparent text-center p-0">
                             <span class="h4 text-primary"><i class="bi bi-bell"></i></span>
-                            <h6 class="mb-2">واجهة سهلة الاستخدام</h6>
-                            <p class="mb-0"> نركز على خلق تصميم بديهي وفعال.</p>
+                            <h6 class="mb-2">الابتكار</h6>
+                            <p class="mb-0">نؤمن أن الابتكار هو أساس النجاح، ونسعى لتعزيز الإبداع لنكون الأفضل</p>
                         </div>
                     </div>
 
@@ -326,14 +347,13 @@
                     <div class="col">
                         <div class="card card-body bg-transparent text-center p-0">
                             <span class="h4 text-primary"><i class="bi bi-headset"></i></span>
-                            <h6 class="mb-2">توافر 24/7 </h6>
-                            <p class="mb-0">لوجيسيل لاب يضمن للمستخدمين إمكانية الوصول إلى المساعدة المهمة متى احتاجوا
-                                إليها.</p>
+                            <h6 class="mb-2">الالتزام</h6>
+                            <p class="mb-0">نلتزم بوعودنا، ونقدم أعلى مستويات الجودة بخدمات تلبي جميع احتياجاتكم</p>
                         </div>
                     </div>
 
                     <!-- item -->
-                    <div class="col">
+                    {{-- <div class="col">
                         <div class="card card-body bg-transparent text-center p-0">
                             <span class="h4 text-primary"><i class="bi bi-broadcast-pin"></i></span>
                             <h6 class="mb-2">وظائف متقدمة </h6>
@@ -358,7 +378,7 @@
                             <h6 class="mb-2">أداء عالي </h6>
                             <p class="mb-0">يتطلب تحقيق الأداء العالي عوامل واعتبارات مختلفة. </p>
                         </div>
-                    </div>
+                    </div> --}}
 
                 </div>
                 <!-- Feature END -->
@@ -367,59 +387,7 @@
         <!-- =======================
         Core feature END -->
 
-        <!-- =======================
-        Client START -->
-        <section>
-            <div class="container">
-                <div class="row g-lg-6">
-                    <div class="col-xl-10 mx-auto">
-                        <div class="row g-4 g-sm-5 g-lg-6 align-items-lg-center">
-                            <div class="col-md-6">
-                                <!-- Image -->
-                                <img src="assets/images/services/4by3/02.jpg" class="rounded" alt="about-img">
-                            </div>
-
-                            <div class="col-md-6">
-                                <!-- Title -->
-                                <h3 class="mb-4">في شركة لوجسيل لاب، نؤمن بقوة التكنلوجيا في تحقيق النجاح</h3>
-                                <p class="mb-0"> نطمح لأن نكون الأفضل في مجالنا، ونسعى لتصبح لوجيسيل لاب أحد أكبر مصادر
-                                    الحلول الرقمية بالمنطقة، من خلال تقديم خدمات بمواصفات عالمية، حتى نكون عنوانًا للجودة
-                                    والإتقان والتميز.
-                                </p>
-
-                                <hr class="my-5"> <!-- Divider -->
-
-                                <!-- Clients -->
-                                <div class="row row-cols-2 row-cols-sm-3 g-4 g-sm-5 align-items-center">
-                                    <!-- Image -->
-                                    <div class="col">
-                                        <img src="assets/images/client/01.svg" alt="client-img">
-                                    </div>
-                                    <!-- Image -->
-                                    <div class="col">
-                                        <img src="assets/images/client/02.svg" alt="client-img">
-                                    </div>
-                                    <!-- Image -->
-                                    <div class="col">
-                                        <img src="assets/images/client/03.svg" alt="client-img">
-                                    </div>
-                                    <!-- Image -->
-                                    <div class="col">
-                                        <img src="assets/images/client/04.svg" alt="client-img">
-                                    </div>
-                                    <!-- Image -->
-                                    <div class="col">
-                                        <img src="assets/images/client/05.svg" alt="client-img">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- =======================
-        Client END -->
+       
 
     </main>
     <!-- **************** MAIN CONTENT END **************** -->
