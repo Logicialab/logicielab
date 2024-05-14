@@ -86,7 +86,7 @@ Main Banner START -->
 			<!-- Hero content END -->
 
 			<!-- Hero Image START -->
-			<div class="col-md-10 col-xl-5 position-relative mx-auto mt-7 mt-xl-0">
+			<div class="col-md-10 d-flex col-xl-5 position-relative mx-auto mt-7 mt-xl-0">
 				<!-- SVG Decoration -->
 				<figure class="position-absolute top-0 start-0 translate-middle mt-2">
 					<svg width="124.2px" height="76.9px" viewBox="0 0 124.2 76.9" style="enable-background:new 0 0 124.2 76.9;" xml:space="preserve">

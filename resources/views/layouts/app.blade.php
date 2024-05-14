@@ -2,7 +2,7 @@
 <html lang="en" dir="rtl">
 <head>
 	
-	<title>Mizzle - Technology and Corporate Bootstrap Theme</title>
+	<title>Logiciel-Lab</title>
 
 	<!-- Meta Tags -->
 	<meta charset="utf-8">
