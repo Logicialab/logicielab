@@ -25,25 +25,21 @@ Route::get('/services', function () {
     return view('frontend.services');
 });
 
-Route::get('/ourteam', function () {
-    return view('frontend.ourteam');
-});
+// Route::get('/ourteam', function () {
+//     return view('frontend.ourteam');
+// });
 
-Route::get('/pricing', function () {
-    return view('frontend.pricing');
-});
+// Route::get('/pricing', function () {
+//     return view('frontend.pricing');
+// });
 
-Route::get('/faq', function () {
-    return view('frontend.faq');
-});
+// Route::get('/faq', function () {
+//     return view('frontend.faq');
+// });
 
-Route::get('/faq', function () {
-    return view('frontend.faq');
-});
-
-Route::get('/conditions', function () {
-    return view('frontend.conditions');
-});
+// Route::get('/conditions', function () {
+//     return view('frontend.conditions');
+// });
 
 Route::get('/contact', function () {
     return view('frontend.contact');

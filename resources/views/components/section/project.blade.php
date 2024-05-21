@@ -12,7 +12,7 @@
             </div>
     
             <!-- Projects START -->
-            <div class="row g-4 g-md-5">
+            <div class="row g-4 g-md-5 pb-6">
                 <div class="col-lg-6">
                     <div class="card bg-light p-3 p-sm-4 card-img-scale overflow-hidden">
                         <div class="card-img-scale-wrapper rounded-3">
