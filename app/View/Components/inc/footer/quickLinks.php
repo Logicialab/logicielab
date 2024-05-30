@@ -2,6 +2,7 @@
 
 namespace App\View\Components\inc\footer;
 
+use App\Models\Menu;
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
@@ -21,6 +22,8 @@ class quickLinks extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.inc.footer.quick-links');
+        return view('components.inc.footer.quick-links',[
+            'menus' => Menu::where('menu_id', '=', 3)->get(),
+        ]);
     }
 }

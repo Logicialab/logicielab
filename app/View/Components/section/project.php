@@ -2,6 +2,7 @@
 
 namespace App\View\Components\section;
 
+use App\Models\Project as ModelsProject;
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
@@ -21,6 +22,8 @@ class project extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.section.project');
+        return view('components.section.project',[
+            'projects' => ModelsProject::orderBy('order', 'asc')->get(),
+        ]);
     }
 }

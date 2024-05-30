@@ -2,18 +2,18 @@
 	<div class="container">
 		<!-- Hero START -->
 		<div class="row">
+			@foreach ($about_us as $item)
 			<div class="col-xl-10 text-center mx-auto">
 				<!-- Hero title -->
 				<span class="font-heading heading-color d-inline-block bg-light px-3 py-2 rounded-3 mb-4">🤩 تعرف علينا	</span>
-				<h1 class="mb-4">لوجيسيل لاب هي شريكك الموثوق لتحقيق نجاحك في العالم الرقمي!</h1>
-				<p class="lead mb-0">في شركة لوجسيل لاب، نؤمن بقوة التكنلوجيا في تحقيق النجاح، وندرك أهمية التواجد الرقمي للنهوض بالمشاريع ومضاعفة أرباحها، لذلك نقدم مجموعة شاملة من الخدمات المتكاملة والحلول الرقمية المبتكرة، التي تساعد عملاءنا على تحقيق أهدافهم بشكل فعال  وتعزيز تواجدهم الرقمي بأفضل طريقة ممكنة.
-				</p>
+				<h1 class="mb-4">{{$item->title}}</h1>
+				<p class="lead mb-0">{{$item->content}}</p>
 
 				<!-- Image and content START -->
 				<div class="row g-4 mt-5 mx-auto align-items-end">
 					<div class="col-md-5 position-relative">
 						<!-- Image -->
-						<img src="assets/images/about/14.jpg" class="rounded mb-4" alt="about-img">
+						<img src="{{$item->image}}" class="rounded mb-4" alt="about-img">
 						
 						<!-- SVG decoration -->
 						<figure class="position-absolute top-0 start-0 z-index-1 mt-n6 ms-n5">
@@ -130,6 +130,8 @@
 				</div>
 				<!-- Image and content END -->
 			</div>
+			@endforeach
+		
 		</div>
 		<!-- Hero END -->
 	</div>

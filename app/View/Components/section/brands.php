@@ -2,6 +2,7 @@
 
 namespace App\View\Components\section;
 
+use App\Models\Partner;
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
@@ -21,6 +22,8 @@ class brands extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.section.brands');
+        return view('components.section.brands',[
+            'brands' => Partner::all()
+        ]);
     }
 }

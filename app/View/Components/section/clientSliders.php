@@ -2,6 +2,7 @@
 
 namespace App\View\Components\section;
 
+use App\Models\Partner;
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
@@ -21,6 +22,8 @@ class clientSliders extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.section.client-sliders');
+        return view('components.section.client-sliders',[
+            'brands' => Partner::all()
+        ]);
     }
 }

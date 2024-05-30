@@ -2,6 +2,7 @@
 
 namespace App\View\Components\section;
 
+use App\Models\Partie;
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
@@ -21,6 +22,8 @@ class teams extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.section.teams');
+        return view('components.section.teams',[
+            'teams' => Partie::join('partie_tags', 'partie_tags.id', '=', 'parties.partie_tag_id')->where('partie_tags.key', '=', 'teams')->get(),
+        ]);
     }
 }

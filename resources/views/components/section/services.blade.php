@@ -26,143 +26,24 @@
             <!-- Service list START -->
             <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 gy-5 gy-md-7 mt-3 d-flex justify-content-center">
                 <!-- Service item -->
-                <div class="col">
-                    <div class="card bg-light h-100">
-                        <div class="card-body pb-0">
-                            <!-- Icon -->
-                            <div class="icon-lg bg-white text-primary rounded-circle mb-4 mt-n5">
-                                <i class="bi bi-stack fa-fw fs-5"></i>
+                @foreach ($services as $service)
+                    <div class="col">
+                        <div class="card bg-light h-100">
+                            <div class="card-body pb-0">
+                                <!-- Icon -->
+                                <div class="icon-lg bg-white text-primary rounded-circle mb-4 mt-n5">
+                                    <i class="{{$service->image}}"></i>
+                                </div>
+                                <!-- Content -->
+                                <h5 class="mb-3">{{$service->title}}</h5>
+                                <p>{{$service->description}}</p>
                             </div>
-                            <!-- Content -->
-                            <h5 class="mb-3">خدمات العلامة التجارية</h5>
-                            <p>تنمية العلامات التجارية عبر الإنترنت من خلال القنوات الرقمية.</p>
+                        
                         </div>
-                      
                     </div>
-                </div>
+                @endforeach
+               
     
-                <!-- Service item -->
-                <div class="col">
-                    <div class="card bg-light h-100">
-                        <div class="card-body pb-0">
-                            <!-- Icon -->
-                            <div class="icon-lg bg-white text-primary rounded-circle mb-4 mt-n5">
-                                <i class="bi bi-boxes fa-fw fs-5"></i>
-                            </div>
-                            <!-- Content -->
-                            <h5 class="mb-3">خدمات التسويق الالكتروني</h5>
-                            <p>استراتيجيات تسويق  فعالة وحملات إعلانية مدروسة</p>
-                        </div>
-                        {{-- <div class="card-footer bg-light mt-auto pt-2">
-                            <a class="icon-link icon-link-hover" href="#">Know more<i class="bi bi-arrow-right"></i> </a>
-                        </div> --}}
-                    </div>
-                </div>
-    
-                <!-- Service item -->
-                <div class="col">
-                    <div class="card bg-light h-100">
-                        <div class="card-body pb-0">
-                            <!-- Icon -->
-                            <div class="icon-lg bg-white text-primary rounded-circle mb-4 mt-n5">
-                                <i class="bi bi-circle-square fa-fw fs-5"></i>
-                            </div>
-                            <!-- Content -->
-                            <h5 class="mb-3"> خدمات تطبيقات سطح المكتب</h5>
-                            <p>تقديم حلول تطبيقات سطح المكتب مخصصة لتلبية احتياجاتك</p>
-                        </div>
-                        {{-- <div class="card-footer bg-light mt-auto pt-2">
-                            <a class="icon-link icon-link-hover" href="#">Know more<i class="bi bi-arrow-right"></i> </a>
-                        </div> --}}
-                    </div>
-                </div>
-                <!-- Service item -->
-                <div class="col">
-                    <div class="card bg-light h-100">
-                        <div class="card-body pb-0">
-                            <!-- Icon -->
-                            <div class="icon-lg bg-white text-primary rounded-circle mb-4 mt-n5">
-                                <i class="bi bi-vector-pen fa-fw fs-5"></i>
-                            </div>
-                            <!-- Content -->
-                            <h5 class="mb-3">خدمات التصميم الجرافيكي </h5>
-                            <p>تصميم محترف يعزز جاذبية علامتك التجارية </p>
-                        </div>
-                        {{-- <div class="card-footer bg-light mt-auto pt-2">
-                            <a class="icon-link icon-link-hover" href="#">Know more<i class="bi bi-arrow-right"></i> </a>
-                        </div> --}}
-                    </div>
-                </div>
-    
-                <!-- Service item -->
-                <div class="col">
-                    <div class="card bg-light h-100">
-                        <div class="card-body pb-0">
-                            <!-- Icon -->
-                            <div class="icon-lg bg-white text-primary rounded-circle mb-4 mt-n5">
-                                <i class="bi bi-code-slash fa-fw fs-5"></i>
-                            </div>
-                            <!-- Content -->
-                            <h5 class="mb-3">خدمات تطبيقات الجوال</h5>
-                            <p>حلول مبتكرة لتصميم تطبيقات الهاتف بأداء فعال</p>
-                        </div>
-                        {{-- <div class="card-footer bg-light mt-auto pt-2">
-                            <a class="icon-link icon-link-hover" href="#">Know more<i class="bi bi-arrow-right"></i> </a>
-                        </div> --}}
-                    </div>
-                </div>
-                
-                <!-- Service item -->
-                <div class="col">
-                    <div class="card bg-light h-100">
-                        <div class="card-body pb-0">
-                            <!-- Icon -->
-                            <div class="icon-lg bg-white text-primary rounded-circle mb-4 mt-n5">
-                                <i class="bi bi-binoculars fa-fw fs-5"></i>
-                            </div>
-                            <!-- Content -->
-                            <h5 class="mb-3">خدمات الاستضافة</h5>
-                            <p>ضمان توفر موقعك على الإنترنت بشكل مستمر وموثوق</p>
-                        </div>
-                        {{-- <div class="card-footer bg-light mt-auto pt-2">
-                            <a class="icon-link icon-link-hover" href="#">Know more<i class="bi bi-arrow-right"></i> </a>
-                        </div> --}}
-                    </div>
-                </div>
-    
-                <!-- Service item -->
-                <div class="col">
-                    <div class="card bg-light h-100">
-                        <div class="card-body pb-0">
-                            <!-- Icon -->
-                            <div class="icon-lg bg-white text-primary rounded-circle mb-4 mt-n5"><i class="bi bi-code-slash fa-fw fs-5"></i></div>
-                            <!-- Content -->
-                            <h5 class="mb-3">خدمات تطبيقات الويب</h5>
-                            <p>بناء وصيانة المواقع وتطبيقات الويب</p>
-                        </div>
-                        {{-- <div class="card-footer bg-light mt-auto pt-2">
-                            <a class="icon-link icon-link-hover" href="#">Know more<i class="bi bi-arrow-right"></i> </a>
-                        </div> --}}
-                    </div>
-                </div>
-    
-                <!-- Service item -->
-                <div class="col">
-                    <div class="card bg-light h-100">
-                        <div class="card-body pb-0">
-                            <!-- Icon -->
-                            <div class="icon-lg bg-white text-primary rounded-circle mb-4 mt-n5">
-                                <i class="bi bi-bullseye fa-fw fs-5"></i>
-                            </div>
-                            <!-- Content -->
-                            <h5 class="mb-3">خدمات الدعم الفني</h5>
-                            <p>ضمان استمرارية ونجاح خدماتنا بعد التنفيذ</p>
-                        </div>
-                        {{-- <div class="card-footer bg-light mt-auto pt-2">
-                            <a class="icon-link icon-link-hover" href="#">Know more<i class="bi bi-arrow-right"></i> </a>
-                        </div> --}}
-                    </div>
-                </div>
             </div>
             <!-- Service list END -->
         </div>

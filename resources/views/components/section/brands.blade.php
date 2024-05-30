@@ -20,29 +20,12 @@
                         <!-- Slider items -->
                         <div class="swiper-wrapper align-items-center">
                             <!-- Image -->
-                            <div class="swiper-slide">
-                                <img src="assets/images/client/01.svg" class="grayscale" alt="client-img">
-                            </div>
-                            <!-- Image -->
-                            <div class="swiper-slide">
-                                <img src="assets/images/client/02.svg" class="grayscale" alt="client-img">
-                            </div>
-                            <!-- Image -->
-                            <div class="swiper-slide">
-                                <img src="assets/images/client/03.svg" class="grayscale" alt="client-img">
-                            </div>
-                            <!-- Image -->
-                            <div class="swiper-slide">
-                                <img src="assets/images/client/04.svg" class="grayscale" alt="client-img">
-                            </div>
-                            <!-- Image -->
-                            <div class="swiper-slide">
-                                <img src="assets/images/client/05.svg" class="grayscale" alt="client-img">
-                            </div>
-                            <!-- Image -->
-                            <div class="swiper-slide">
-                                <img src="assets/images/client/01.svg" class="grayscale" alt="client-img">
-                            </div>
+                            @foreach ($brands as $brand)
+                                <div class="swiper-slide">
+                                    <img src="{{$brand->image}}" class="grayscale" alt="client-img">
+                                </div>
+                            @endforeach
+                    
                         </div>
                     </div>
                     <!-- Slider END -->

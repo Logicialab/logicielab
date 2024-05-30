@@ -11,33 +11,11 @@
         <!-- Slider items -->
         <div class="swiper-wrapper align-items-center" id="swiper-wrapper-92395a77119d9e30" aria-live="off" style="transition-duration: 0ms; transform: translate3d(330px, 0px, 0px); transition-delay: 0ms;">
             <!-- Image -->
-            <div class="swiper-slide" style="width: 125px; margin-left: 40px;" role="group" aria-label="1 / 7">
-                <img src="assets/images/client/05.svg" alt="client-img">
-            </div>
-            <!-- Image -->
-            <div class="swiper-slide swiper-slide-prev" style="width: 125px; margin-left: 40px;" role="group" aria-label="2 / 7">
-                <img src="assets/images/client/01.svg" alt="client-img">
-            </div>
-            <!-- Image -->
-            <div class="swiper-slide swiper-slide-active" style="width: 125px; margin-left: 40px;" role="group" aria-label="3 / 7">
-                <img src="assets/images/client/02.svg" alt="client-img">
-            </div>
-            <!-- Image -->
-            <div class="swiper-slide swiper-slide-next" style="width: 125px; margin-left: 40px;" role="group" aria-label="4 / 7">
-                <img src="assets/images/client/03.svg" alt="client-img">
-            </div>
-            <!-- Image -->
-            <div class="swiper-slide" style="width: 125px; margin-left: 40px;" role="group" aria-label="5 / 7">
-                <img src="assets/images/client/04.svg" alt="client-img">
-            </div>
-            <!-- Image -->
-            <div class="swiper-slide" style="width: 125px; margin-left: 40px;" role="group" aria-label="6 / 7">
-                <img src="assets/images/client/06.svg" alt="client-img">
-            </div>
-            <!-- Image -->
-            <div class="swiper-slide" role="group" aria-label="7 / 7" style="width: 125px; margin-left: 40px;">
-                <img src="assets/images/client/07.svg" alt="client-img">
-            </div>
+            @foreach ($brands as $brand)
+                <div class="swiper-slide">
+                    <img src="{{$brand->image}}" class="grayscale" alt="client-img">
+                </div>
+            @endforeach
         </div>
     <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
 </div>

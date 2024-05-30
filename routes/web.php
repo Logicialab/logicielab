@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\ProjectController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -45,9 +47,10 @@ Route::get('/contact', function () {
     return view('frontend.contact');
 });
 
-Route::get('/projects', function () {
-    return view('frontend.all_projects');
-});
+
+
+Route::get('/projects', [ProjectController::class, 'index']);
+
 
 Route::get('/web-design', function () {
     return view('frontend.detailsService.webDevelopment');
@@ -76,6 +79,9 @@ Route::get('/design-services', function () {
 Route::get('/technical-support', function () {
     return view('frontend.detailsService.technical-support');
 });
+
+Route::post('/contact/store', [ContactController::class, 'store'])->name('store.contact');
+
 
 
 

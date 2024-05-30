@@ -2,6 +2,7 @@
 
 namespace App\View\Components\inc\footer;
 
+use App\Models\ConfigSite;
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
@@ -21,6 +22,8 @@ class quickService extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.inc.footer.quick-service');
+        return view('components.inc.footer.quick-service',[
+            'services' => ConfigSite::join('config_keys', 'config_keys.id', '=', 'config_sites.config_key_id')->where('key', '=', 'service')->get()
+        ]);
     }
 }

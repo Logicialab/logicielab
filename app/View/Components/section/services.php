@@ -2,6 +2,7 @@
 
 namespace App\View\Components\section;
 
+use App\Models\Service;
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
@@ -21,6 +22,9 @@ class services extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.section.services');
+
+        return view('components.section.services',[
+            'services' => Service::orderBy('order', 'asc')->get(),
+        ]);
     }
 }
