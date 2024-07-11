@@ -834,7 +834,7 @@ a.active {
 }
 
 .input_wrapper {
-    margin-bottom: .75rem;
+    /* margin-bottom: .75rem; */
 }
 .phone_wrapper {
     margin-bottom: .75rem;
@@ -905,7 +905,7 @@ a.active {
 
 .footer_section .subscribe_form {
     border-radius: 9999px;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
 }
 
 nav div a {
