@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://storage-alikar.b-cdn.net/gobabar/pickup/li1jcgwb2rrykfrrjor1684922488715.png">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="platform" content="iacheck" />
+    <meta name="theme-color" content="#03a9f4" />
+    <meta data-hid="theme-color" property="theme-color" content="#03a9f4" />
+    <meta data-hid="twitter:card" property="twitter:card" content="inspection de véhicules" />
+    <meta data-hid="twitter:site" property="twitter:site" content="Dommages de voiture" />
+    <meta data-hid="twitter:title" property="twitter:title" content="Maintenance de véhicules" />
+    <meta data-hid="twitter:description" property="twitter:description" content="Estimation des coûts de réparation" />
+    
+
+    <meta name="application-name" content="iacheck" />
+    <meta property="og:site_name" content="iacheck" />
+    <meta property="og:image"
+        content="https://storage-alikar.b-cdn.net/gobabar/pickup/lg6n10x0jcaynun0ptb1680877439460.png" />
+    <meta property="og:url" content="https://www.iacheck.com/" />
+    <meta property="og:image:alt" content="inspection de véhicules" />
+    <meta property="og:title"
+        content="IA Check est la plateforme de pointe pour l'inspection de véhicules et la détection de dommages, inspection de véhicules, Dommages de voiture" />
+    <meta property="og:description"
+        content="IA Check est la plateforme de pointe pour l'inspection de véhicules et la détection de dommages, inspection de véhicules, Dommages de voiture, Estimation des coûts de réparation" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:app:name:iphone" content="iacheck" />
+    <meta name="twitter:app:name:googleplay" content="iacheck" />
+    <meta property="al:ios:app_name" content="iacheck" />
+    <meta name="twitter:title"
+        content="inspection de véhicules , dent , scratch , glass , accident , véhicule endommagé">
+    <meta name="twitter:description"
+        content="IA Check a tout ce dont vous avez besoin pour maintenir vos véhicules en bon état. Essayez IA Check dès maintenant et découvrez la commodité et la précision de notre plateforme par vous-même">
+
+
+    {% if config.settings.title %}
+    <title>{{ config.settings.title }}</title>
+    {% else %}
+    <title>Iacheck Web Site</title>
+    {% endif %}
+
+    {% if config.settings.description %}
+    <meta name="description" content="{{ config.settings.description }}">
+    {% endif %}
+    {% if config.settings.keywords %}
+    <meta name="keywords" content="{{ config.settings.keywords }}">
+    {% endif %}
+    {% if config.settings.color %}
+    <meta name="theme-color" content="{{ config.settings.color }}">
+    {% endif %}
+
+   <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" />--> 
+
+   <link rel="canonical" href="https://iacheck.com/">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+
+    <!--<script src="https://cdn.tailwindcss.com"></script>-->
+    
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+
+
+
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-L84J6C5LBT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-L84J6C5LBT');
+</script>
+
+<body style="background-color: #F2FDFF;">
+    <header >
+        <nav class="bg-white py-2 md:py-4 fixed w-full z-50 top-0 mobileWidth">
+            <div class="container lg:pl-2 pr-8 mx-auto md:flex md:items-center">
+
+                <div class="flex justify-between items-center">
+                    <a href="https://iacheck.com/" class="flex items-center" style="margin-left: 2%;">
+                        <img src="https://storage-alikar.b-cdn.net/gobabar/pickup/lg6n10x0jcaynun0ptb1680877439460.png"
+                            style="width:100px;height: 80px;" class="mr-3 h-6 sm:h-9" alt="Logo Iacheck" />
+                    </a>
+                    <button
+                        class="border border-solid border-gray-600 px-3 py-1 rounded text-gray-600 opacity-50 hover:opacity-75 md:hidden"
+                        id="navbar-toggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+
+                <div class="hidden md:flex flex-col md:flex-row m-auto mt-3" id="navbar-collapse">
+
+                    {% if config.settings.lang == 'en' %}
+
+                    <a href="#"
+                        class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100  lg:hover:bg-transparent lg:border-0"
+                        style="color: #03A9F4;"><button type="button"
+                            class="text-white bg-red-700 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-sm px-5 text-center">Beta
+                            version</button>
+                    </a>
+                    <a href="#accueil" style="color: #03A9F4;" class="p-2 lg:px-4 md:mx-2 sizeMobile rounded font-bold">Home</a>
+                    <a href="#solutions-section"
+                        style="color: #03A9F4;" class="p-2 lg:px-4 md:mx-2 sizeMobile rounded font-bold">Our solutions</a>
+                    <a href="#contact"
+                        style="color: #03A9F4;" class="p-2 lg:px-4 md:mx-2 rounded sizeMobile font-bold">Contact</a>
+
+                    <span class="p-2 lg:px-4 md:mx-2 text-black font-bold rounded border-2 widthMobile">
+                        <label>
+                            <select onchange="selectLange()" class="js_language_selector">
+                                <option value="fr">FR</option>
+                                <option selected value="en">EN</option>
+                            </select>
+                        </label>
+                    </span>
+
+                    <a href="https://dashboard.iacheck.com/login/"
+                        class="p-2 lg:px-4 md:mx-2 text-white text-center border border-transparent rounded duration-300" style="background-color: #03A9F4;">Log
+                        in</a>
+
+                    {% else %}
+
+                    <a href="#"
+                        class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100  lg:hover:bg-transparent lg:border-0"
+                        style="color: #03A9F4;"><button type="button"
+                            class="text-white bg-red-700 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-sm px-5 text-center">Version
+                            Beta</button>
+                    </a>
+                    <a href="#accueil"
+                        style="color: #03A9F4;" class="p-2 lg:px-4 md:mx-2 sizeMobile rounded font-bold">Accueil</a>
+                    <a href="#solutions-section"
+                        style="color: #03A9F4;" class="p-2 lg:px-4 md:mx-2 sizeMobile rounded font-bold">Nos solutions</a>
+                    <a href="#contact"
+                        style="color: #03A9F4;" class="p-2 lg:px-4 md:mx-2 rounded sizeMobile font-bold">Contact</a>
+
+                    <span class="p-2 lg:px-4 md:mx-2 text-black font-bold rounded border-2 widthMobile">
+                        <label>
+                            <select onchange="selectLange()" class="js_language_selector">
+                                <option selected value="fr">FR</option>
+                                <option value="en">EN</option>
+                            </select>
+                        </label>
+                    </span>
+                    <a href="https://dashboard.iacheck.com/login/"
+                        class="p-2 lg:px-4 md:mx-2 text-white text-center border border-transparent rounded duration-300" style="background-color: #03A9F4;">Login</a>
+                    {% endif %}
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="vm" class="">
+
+
+
+
+
+        {% include "pages/" + config.pageName + ".html" ignore missing %}
+
+
+        <footer class="p-4 bg-white rounded-lg shadow md:px-6 md:py-8 " id="contact">
+            <p style="color: #6B7280;" class="block text-sm text-center">© Brought to life by IT BABAR. <script> document.write(new Date().getFullYear());</script> </p>
+        </footer>
+    </div>
+
+
+</body>
+<style>
+    html{scroll-behavior:smooth}
+    @media (min-width: 640px) {
+
+        .container,
+        .container-sm {
+            max-width: 640px;
+        }
+    }
+
+    @media (min-width: 768px) {
+
+        .container,
+        .container-md,
+        .container-sm {
+            max-width: 768px;
+        }
+    }
+
+    @media (min-width: 1024px) {
+
+        .container,
+        .container-lg,
+        .container-md,
+        .container-sm {
+            max-width: 1024px;
+        }
+    }
+
+    @media (max-width: 767px) {
+
+        .vehicule,
+        .ilEtait,
+        .ficheCheck {
+            font-size: 40px !important;
+        }
+
+        .titleAcces {
+            font-size: 26px !important;
+            margin-bottom: 20px;
+        }
+
+        
+
+        .widthMobile {
+            width: 80px;
+            margin-bottom: 10px;
+        }
+
+        .screenMobile {
+           /* width: 100%;*/
+            margin-bottom: 12px;
+        }
+    }
+
+    @media (min-width: 1280px) {
+
+        .container,
+        .container-lg,
+        .container-md,
+        .container-sm,
+        .container-xl {
+            max-width: 1280px !important;
+        }
+
+    
+
+        .lineHeight {
+            line-height: 70px !important;
+            font-weight: bold !important;
+            font-size: 39px !important;
+        }
+
+        .cardDesctop {
+            width: 18rem;
+            height: auto;
+            background-color: aliceblue;
+        }
+        .cardWidth{
+            width: 20rem;
+        }
+        .Laissez{
+            font-size: 42px;
+        }
+        .Comment{
+            font-size: 42px;
+        }
+    }
+
+    @media (min-width: 1536px) {
+
+        .container,
+        .container-lg,
+        .container-md,
+        .container-sm,
+        .container-xl,
+        .container-xxl {
+            max-width: 1536px;
+        }
+    }
+
+    h1 {
+        font-family: 'Montserrat', Verdana, sans-serif;
+    }
+
+    @media (min-width: 1025px) and (max-width: 1280px) {
+        .cardMobile {
+            margin-left: 7%;
+        }
+    }
+
+    .imgCar {
+        height: 87%;
+        margin-left: 20%;
+    }
+
+    .ilEtait {
+        font-size: 39px;
+    }
+
+    .decouvrez-application{
+            margin-top: 12%;
+            margin-bottom: 5%;
+            font-weight: bold;
+        }
+
+    .textSousTitle {
+        line-height: 41px;
+        font-size: 24px;
+    }
+    .contacter-nous{
+        margin-left: 25%;
+        margin-top: 3%;
+    }
+
+    .lineHeightTow {
+        line-height: 60px;
+        font-weight: bold;
+    }
+
+    .textP {
+        font-size: 13px;
+        line-height: 30px;
+    }
+
+    .stepDesctop {
+        display: none;
+    }
+
+    .titleAcces {
+        line-height: 55px;
+        font-size: 37px;
+    }
+
+
+    .lineHeightP {
+        line-height: 76px;
+    }
+
+    .home-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    p {
+        font-family: 'Montserrat', Verdana, sans-serif;
+    }
+
+    .borderStep {
+        border: solid 1px;
+    }
+
+    .numberCircle2 {
+        width: 79px;
+        height: 79px;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 22px;
+        border: 2px solid;
+        color: white;
+        background: #3498db;
+        margin: 0 auto;
+        z-index: 1;
+        transform: translateY(-50%);
+        line-height: 40px;
+        background-size: 100%;
+    }
+
+    .language-selector__container select {
+        background-color: white;
+        border: 1px solid #c5c5c5;
+        border-radius: 5px;
+        box-sizing: border-box;
+        color: #3e3d40;
+        display: block;
+        font-family: SourceSansPro, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        height: 40px;
+        min-width: 80px;
+        padding: 0 20px 0 16px;
+        position: absolute;
+        outline: none;
+    }
+
+    .language-selector__container label {
+        position: relative;
+    }
+
+    .language-selector__container label:after {
+        content: '';
+        left: 54px;
+        top: 17px;
+        padding: 0 0 2px;
+        position: absolute;
+        pointer-events: none;
+        width: 0;
+        height: 0;
+        border-left: 3.5px solid transparent;
+        border-right: 3.5px solid transparent;
+        border-top: 5px solid #007fd8;
+        z-index: 100;
+    }
+
+    .language-selector__container label:before {
+        content: '';
+        left: 56px;
+        top: 10px;
+        width: 20px;
+        height: 20px;
+        background: white;
+        position: absolute;
+        pointer-events: none;
+        display: block;
+        z-index: 1;
+    }
+
+
+    .numberCircle1 {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 22px;
+        border: 2px solid white;
+        color: white;
+        font-weight: bold;
+        background: #03A9F4;
+        margin: 0 auto;
+        z-index: 1;
+        transform: translateY(-50%);
+        line-height: 40px;
+    }
+
+    .card {
+        /* border: 1px solid #67e8f9; */
+        border-radius: 10px;
+    }
+
+
+
+    .step1btn {
+        margin-top: 46%;
+        margin-bottom: 57%;
+        background-color: #03A9F4;
+    }
+
+    .numberCircle {
+        border-radius: 50%;
+        width: 41px;
+        height: 39px;
+        padding: 8px;
+
+        background: #fff;
+        text-align: center;
+
+        font: 32px Arial, sans-serif;
+    }
+
+    .title {
+        font-weight: 600;
+        font-size: 18px;
+        color: #444444 !important;
+        line-height: 1.6em;
+        font-family: 'Montserrat', Verdana, sans-serif;
+        padding-bottom: 10px;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .screen {
+            display: block;
+        }
+
+        .imgCar {
+            margin-top: 0%;
+            margin-left: 3%;
+        }
+
+        .lineHeight {
+            line-height: 65px;
+            font-weight: bold;
+            font-size: 34px;
+        }
+
+        .sizeMobile {
+            font-size: 24px;
+        }
+        .Laissez{
+            font-size: 30px !important;
+            line-height: 45px;
+        }
+
+        .mobile {
+            margin: auto;
+        }
+
+        .mobilePadding {
+            padding: 20px
+        }
+        .contacter-nous{
+        margin-left: 0% !important;
+        margin-top: 10%;
+    }
+
+       
+        .Comment{
+            font-size: 30px;
+        }
+        .artificielle{
+        
+        font-size: 12px;    
+        }
+
+        .step1Mobile {
+            margin-top: 0%;
+            display: flex;
+            margin: auto;
+            margin-bottom: 5%;
+        }
+
+        .maximize{
+            font-size: 20px;
+            }
+
+        .stepDesctop {
+            display: block;
+        }
+
+        .stepMobile {
+            display: none;
+        }
+
+
+    }
+
+    a.active {
+        background: red;
+    }
+</style>
+
+{% if config.settings.lang == 'en' %}
+<script>
+    function selectLange() {
+        window.location = 'https://iacheck.com/'
+    }
+
+</script>
+{% else %}
+<script>
+    function selectLange() {
+        window.location = 'https://iacheck.com/en'
+    }
+</script>
+{% endif %}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.7.14/vue.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+
+<script>
+    let toggleBtn = document.querySelector("#navbar-toggle");
+    let collapse = document.querySelector("#navbar-collapse");
+
+    toggleBtn.onclick = () => {
+        collapse.classList.toggle("hidden");
+        collapse.classList.toggle("flex");
+    };
+    AOS.init();
+
+
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        autoplay:true,
+        autoplayTimeout:3000,
+        smartSpeed:500,
+        margin:10,
+        // nav:true,
+        // navText:["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],
+        // navText: [$('.am-next'),$('.am-prev')],
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:6
+            }
+        }
+    });
+</script>
+
+</html>

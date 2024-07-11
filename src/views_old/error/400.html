@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex" />
+    <title>Demo hand gestures . 3D  </title>
+    <style>
+        /* @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400&family=Amiri:ital,wght@0,400;0,700;1,400&family=Cairo:wght@200;300;400;600&family=Readex+Pro:wght@200;600&family=Tajawal:wght@300;400;700&family=Playfair+Display:wght@400;600&family=Poppins:wght@200;400;600&family=Sora:wght@200;500&display=swap'); */
+        *, ::after, ::before {
+            box-sizing: border-box;
+            border-width: 0;
+            border-style: solid;
+            border-color: #e5e7eb;
+        }
+        html{
+            /* scroll-behavior: smooth; */
+            line-height: 1.4;
+            -webkit-text-size-adjust: 100%;
+            -moz-tab-size: 4;
+            tab-size: 4;
+            /* font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+        }
+        body{ 
+            margin: 0;
+            background : "#ccc";
+        }
+        p{ margin: 0; }
+        .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            margin-right: auto;
+            margin-left: auto;
+            /* transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1.0); */
+            transition-duration: 500ms;
+            /* transition-delay: 100ms;  */
+        }
+        @media (min-width: 640px){
+            .container, .container-sm {
+                max-width: 640px;
+            }
+        }
+        @media (min-width: 768px){
+            .container, .container-md, .container-sm {
+                max-width: 768px;
+            }
+        }
+        @media (min-width: 1024px){
+            .container, .container-lg, .container-md, .container-sm {
+                max-width: 1024px;
+            }
+        }
+        @media (min-width: 1280px){
+            .container, .container-lg, .container-md, .container-sm, .container-xl {
+                max-width: 1280px;
+            }
+        }
+        @media (min-width: 1536px){
+            .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+                max-width: 1536px;
+            }
+        }
+        .main{
+            display: flex;
+            /* width: 91.6666667%; */
+            width: 100%;
+            flex-direction: column;
+            margin-left: auto;
+            margin-right: auto;
+            /* overflow: hidden; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid" id="app" >
+        <div class="main" >
+            <div style="display: flex; align-items: center; justify-content: center; height: 100vh; color:#aeb1b8" >
+                <h2> hand gestures . 3D </h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

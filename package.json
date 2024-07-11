@@ -1,0 +1,36 @@
+{
+  "name": "wayizi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "./src/database/*",
+      "./src/log/*",
+      "./node_modules/*",
+      "tokens/*"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "compression": "^1.7.4",
+    "config": "^3.3.6",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "gsap": "^3.12.4",
+    "i18n": "^0.15.1",
+    "lodash": "^4.17.20",
+    "moment": "^2.25.1",
+    "nodemailer": "^6.7.4",
+    "nunjucks": "^3.2.3",
+    "path": "^0.12.7",
+    "wow.js": "^1.2.2"
+  }
+}

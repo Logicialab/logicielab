@@ -1,0 +1,27 @@
+{
+    "BunnyCDN": {
+        "AccessKey": "84fc9df4-300c-44da-8fbb73c052b3-987d-4602"
+    },
+    "app": {
+        "name": "Alikar.",
+        "path": "http://alikar.fr/api",
+        "port": 3033,
+        "env": "DEFAULT"
+    },
+    "db": {
+        "host": "127.0.0.1",
+        "name": "alikar",
+        "user": "",
+        "password": ""
+    },
+    "api":{
+        "paypal":"https://api.sandbox.paypal.com"
+    },
+    "front":{
+        "dashboard":"https://dashboard.gobabar.com"
+    },
+    "jwt": {
+        "access_key": "kr#<:56V^T?<L`8s",
+        "refresh_key": "+7S4*tKP7?gNzv"
+    }
+}

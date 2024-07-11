@@ -1,0 +1,115 @@
+
+  
+<div class="static">
+
+
+
+  
+
+
+    <div class="min-h-screen lg:flex justify-between items-center lg:w-11/12 lg:p-0 p-3.5 m-auto mb-20 margin-top-mobile">
+        <div class="items-center lg:w-[50%] margin-header-book">
+                <h1 class="lg:text-[50px] text-[#111827] text-[30px] font-bold lg:leading-[80px] leading-[60px]">{{ 'Explore Our ' if metadata.lang == 'en' else 'Découvrez nos' }}</h1>
+                <h1 class="lg:text-[50px] text-[#111827] text-[30px] font-bold lg:leading-[80px] leading-[60px]">{{ 'Solutions in Action ' if metadata.lang == 'en' else 'solutions en action' }} </h1>
+                <p class="lg:text-[25px] text-[18px] text-[#111827] font-normal leading-relaxed lg:mt-8">
+                    {{ 'Connect with our team to unlock the potential' if metadata.lang == 'en' else 'Entrez en contact avec notre équipe pour libérer' }} 
+                </p>
+                <p class="lg:text-[25px] text-[18px] text-[#111827] font-normal leading-relaxed lg:mt-3">
+                  {{ 'for transformative change' if metadata.lang == 'en' else 'le potentiel d\'un changement transformationnel' }} 
+              </p>
+
+                <div class="brand-carousel section-padding owl-carousel">
+                    <div class="single-logo">
+                      <img src="https://storage-alikar.b-cdn.net/gobabar/pickup/lskcfml6w1jz3gyx0ul1707827559450.png" class="image-brand-carsouel" alt="">
+                    </div>
+                    <div class="single-logo">
+                      <img src="https://cdn.iacheck.com/gobabar/pickup/lratscxrfhldc49tt1q1705075262847.png" class="image-brand-carsouel" alt="">
+                    </div>
+                    <div class="single-logo">
+                      <img src="https://cdn.iacheck.com/gobabar/pickup/lratsxg2qy6twafsbli1705075289426.png" class="image-brand-carsouel" alt="">
+                    </div>
+                    <div class="single-logo">
+                      <img src="https://cdn.iacheck.com/gobabar/pickup/lratun4d7q94270xrv1705075369357.png" class="image-brand-carsouel" alt="">
+                    </div>
+                    <div class="single-logo">
+                      <img src="https://cdn.iacheck.com/gobabar/pickup/lratvie6s5qdwm2h9h1705075409886.png" class="image-brand-carsouel" alt="">
+                    </div>
+                    <div class="single-logo">
+                      <img src="https://cdn.iacheck.com/gobabar/pickup/lratw9u4cl4jcirk2kc1705075445452.png" class="image-brand-carsouel" alt="">
+                    </div>
+                  </div>
+                  
+                 
+                  
+
+   
+   
+            </div>
+        <div  class="lg:w-[50%] relative lg:flex justify-center lg:mt-24 mt-8">
+          <div v-if="messageSuccess" class="flex flex-col justify-center items-center absolute lg:w-[85%] h-full bg-[#B5E8FF] rounded-lg">
+            <p class="text-[#111827] text-center text-2xl font-medium mb-4">{{'Thank you for reaching out !' if metadata.lang == 'en' else 'Merci de nous avoir contactés !'}}</p>
+            <p class="text-[#111827] text-center">{{'We have received your message and will get back to you shortly' if metadata.lang == 'en' else 'Nous avons bien reçu votre message et nous vous recontacterons prochainement'}}</p>
+          </div>
+            <form @submit.prevent="submitContact" method="post" class="lg:w-[85%] bg-[#B5E8FF] lg:p-10 p-5 lg:px-11 rounded-lg shadow-xl">
+
+                <div class="mb-4">
+                    <label for="fullname" class="block mb-2 text-[12px] font-medium text-gray-900 dark:text-white">{{ 'Full Name*' if metadata.lang == 'en' else 'Nom complet*' }}</label>
+                    <input v-model="info.fullName" type="text" id="fullname" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 f block w-full p-2.5" placeholder="eg: John Doe" required>
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block mb-2 text-[12px] font-medium text-gray-900 dark:text-white">{{ 'Email*' if metadata.lang == 'en' else 'Email*' }}</label>
+                    <input v-model="info.email" type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 f block w-full p-2.5" placeholder="eg: john@email.com" required>
+                </div>
+                <div class="mb-4">
+                    <label for="comany" class="block mb-2 text-[12px] font-medium text-gray-900 dark:text-white"> {{ 'Company name' if metadata.lang == 'en' else 'Votre compagnie' }}</label>
+                    <input v-model="info.companyName" type="text" id="comany" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 f block w-full p-2.5" placeholder="" required>
+                </div>
+                <div class="mb-4">
+                    <label for="job" class="block mb-2 text-[12px] font-medium text-gray-900 dark:text-white"> {{ 'Job Title' if metadata.lang == 'en' else 'Votre poste' }}</label>
+                    <input v-model="info.jobTitle" type="text" id="job" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 f block w-full p-2.5" placeholder="" required>
+                </div>
+                <div class="mb-8">
+                    <label for="job" class="block mb-2 text-[12px] font-medium text-gray-900 dark:text-white">{{ 'Share Your message*' if metadata.lang == 'en' else 'Votre message*' }}</label>
+                    <textarea v-model="info.textMessage" id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:border-blue-500" placeholder="{{ 'Tell us your challenges, requirements or ask us a question' if metadata.lang == 'en' else 'Partagez-nous vos défis, vos besoins ou posez-nous une question' }}"></textarea>
+                </div>
+                
+                <div class="lg:flex justify-between mb-4">
+                    <div class="w-[30%]">
+                        <div class="w-full" >
+                            <!-- <div id="g-recaptcha" ></div> -->
+                            <div id="g-recaptcha">  </div>
+                        </div>                    
+                    </div>
+                    <div class="lg:w-[35%]">
+                        <button v-if="disabledBtn()" type="submit" style="padding: 9px;padding-left: 16px;padding-right: 16px;font-size: 16px;" class="flex justify-center w-full text-white bg-[#03A9F4] rounded-[6px] font-medium text-sm py-2.5 text-center" >
+                            {{ 'Submit' if metadata.lang == 'en' else 'Envoyé' }} <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
+                                <path d="M12.1667 4.66699L18 10.5003M18 10.5003L12.1667 16.3337M18 10.5003H3" stroke="white" stroke-width="1.90476" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
+                          </button>
+                        <button v-if="!disabledBtn()" disabled type="button" style="padding: 9px;padding-left: 16px;padding-right: 16px;font-size: 16px;" class="flex justify-center w-full text-white bg-[#03A9F4] rounded-[6px] font-medium text-sm py-2.5 text-center" :class="[!messageSuccess ? 'opacity-50' : 'opacity-0']" >
+                            {{ 'Submit' if metadata.lang == 'en' else 'Envoyé' }} <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
+                                <path d="M12.1667 4.66699L18 10.5003M18 10.5003L12.1667 16.3337M18 10.5003H3" stroke="white" stroke-width="1.90476" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
+                          </button>
+                    </div>
+                </div>
+           
+           
+            </form>
+        
+        </div>
+
+
+ 
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+ 
