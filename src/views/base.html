@@ -99,8 +99,6 @@
             overflow: hidden;
             -webkit-box-orient: vertical;
         }
-
-        
     </style>
 
 
@@ -122,13 +120,13 @@
         <header>
 
 
-            <div class="bg-[#F9FDFF] py-2 hidden relative z-50 md:block">
+            <div class="bg-[#f8f8f8] py-2 hidden relative z-50 md:block">
                 <div class="container" style="max-width: 1500px !important;margin: auto;">
                     <div class="flex flex-wrap justify-between items-center">
                         <div class="flex gap-2 items-center"><a href="tel:+971508224633" title="+971508224633"
                                 class="flex gap-1 items-center text-sm"><bdi>+90508224633</bdi></a></div>
-                        <div class="flex gap-1 items-center text-primary"><a
-                                href="https://www.tiktok.com/?lang=ar" target="_blank"
+                        <div class="flex gap-1 items-center text-primary"><a href="https://www.tiktok.com/?lang=ar"
+                                target="_blank"
                                 class="flex w-8 h-8 justify-center rounded-full border gap-1 items-center text-sm"
                                 aria-label="tik tok" title="tik tok"><i class="fab fa-tiktok"></i></a><a
                                 href="https://www.facebook.com" target="_blank"
@@ -137,105 +135,75 @@
                                 href="https://www.youtube.com/" target="_blank"
                                 class="flex w-8 h-8 justify-center rounded-full border gap-1 items-center text-sm"
                                 aria-label="youtube" title="youtube"><i class="fab  fa-youtube"></i></a>
-                                <a href="https://x.com" target="_blank"
+                            <a href="https://x.com" target="_blank"
                                 class="flex w-8 h-8 justify-center rounded-full border gap-1 items-center text-sm"
                                 aria-label="twitter" title="twitter"><i class="fa-brands fa-square-twitter"></i></a>
-                                <a href="https://www.linkedin.com/compan" target="_blank"
+                            <a href="https://www.linkedin.com/compan" target="_blank"
                                 class="flex w-8 h-8 justify-center rounded-full border gap-1 items-center text-sm"
                                 aria-label="linkedin" title="linkedin"><i class="fab  fa-linkedin-in"></i></a><a
                                 href="https://instagram.com" target="_blank"
                                 class="flex w-8 h-8 justify-center rounded-full border gap-1 items-center text-sm"
                                 aria-label="instagram" title="instagram"><i class="fab  fa-instagram"></i></a>
-                         </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <nav class="bg-white py-2 md:py-4  w-full">
+            <nav class="bg-white py-2 md:py-4 w-full">
                 <div class="container lg:pl-2 pr-8 mx-auto md:flex md:items-center">
 
-                    <div class="flex justify-between items-center">
-                        <div class="">
+                    <!-- Logo and Menu Toggle Button -->
+                    <div class="flex justify-between items-center w-full md:w-auto">
+                        <div>
                             <a href="https://logicielab.com/" class="flex items-center" style="margin-left: 2%;">
-                                <img src="../images/logo-test.png"
-                                    style="width:100%;height: 80px;" class="mr-3 h-6 sm:h-9" alt="Logo logicielab" />
+                                <img src="../images/logo-logiciel-lab-10.png" style="height: 68px;" class="h-6 sm:h-9"
+                                    alt="Logo logicielab" />
                             </a>
                         </div>
-                        <button class="border border-solid border-gray-600 px-3 py-1 rounded text-gray-600 opacity-50 hover:opacity-75 md:hidden" id="navbar-toggle">
+                        <button
+                            class="border border-solid border-gray-600 px-3 py-1 rounded text-gray-600 opacity-50 hover:opacity-75 md:hidden"
+                            id="navbar-toggle">
                             <i class="fas fa-bars"></i>
                         </button>
                     </div>
 
-                    <div class="hidden md:flex flex-col md:flex-row m-auto mt-3 relative" id="navbar-collapse">
-
-                        {% if config.settings.lang == 'en' %}
-
-
-                        <a href="#accueil" style="color: #28398C;"
-                            class="p-2 lg:px-4 md:mx-2 sizeMobile rounded font-bold">الرئيسية</a>
-                        <a href="#solutions-section" style="color: #28398C;"
-                            class="p-2 lg:px-4 md:mx-2 sizeMobile rounded font-bold">Our solutions</a>
-                        <a href="#contact" style="color: #28398C;"
-                            class="p-2 lg:px-4 md:mx-2 rounded sizeMobile font-bold">Contact</a>
-
-                        <span class="p-2 lg:px-4 md:mx-2 text-black font-bold rounded border-2 widthMobile">
-                            <label>
-                                <select onchange="selectLange()" class="js_language_selector">
-                                    <option value="fr">FR</option>
-                                    <option selected value="en">EN</option>
-                                </select>
-                            </label>
-                        </span>
-
-                        <a href="https://dashboard.iacheck.com/login/"
-                            class="p-2 lg:px-4 md:mx-2 text-white text-center border border-transparent rounded duration-300"
-                            style="background-color: #28398C;">Log in</a>
-
-                        {% else %}
-
-
+                    <!-- Main Navigation Links -->
+                    <div class="hidden md:flex flex-col md:flex-row m-auto mt-3 relative md:ml-auto"
+                        id="navbar-collapse">
                         <a href="/pages" style="color: #28398C;"
-                            class="p-2 lg:px-4 md:mx-2 sizeMobile rounded font-bold">الرئيسية</a>
+                            class="p-2 lg:px-4 md:mx-2 sizeMobile rounded font-bold href-nav">الرئيسية</a>
                         <a href="/pages/about" style="color: #28398C;"
-                            class="p-2 lg:px-4 md:mx-2 sizeMobile rounded font-bold">من نحن</a>
-
+                            class="p-2 lg:px-4 md:mx-2 sizeMobile rounded font-bold href-nav">من نحن</a>
                         <a href="/pages/services" style="color: #28398C;"
-                            class="p-2 lg:px-4 md:mx-2 rounded sizeMobile font-bold">الخدمات</a>
-
+                            class="p-2 lg:px-4 md:mx-2 rounded sizeMobile font-bold href-nav">الخدمات</a>
                         <a href="/pages/solutions" style="color: #28398C;"
-                            class="p-2 lg:px-4 md:mx-2 rounded sizeMobile font-bold">الحلول </a>
+                            class="p-2 lg:px-4 md:mx-2 rounded sizeMobile font-bold href-nav">الحلول</a>
                         <a href="/pages/systems" style="color: #28398C;"
-                            class="p-2 lg:px-4 md:mx-2 rounded sizeMobile font-bold">الأنظمة</a>
-                        <!-- <a href="#contact" style="color: #28398C;"
-                            class="p-2 lg:px-4 md:mx-2 rounded sizeMobile font-bold">Portfoli</a>
-                        <a href="#contact" style="color: #28398C;"
-                            class="p-2 lg:px-4 md:mx-2 rounded sizeMobile font-bold">Blog</a> -->
+                            class="p-2 lg:px-4 md:mx-2 rounded sizeMobile font-bold href-nav">الأنظمة</a>
                         <a href="/pages/contact-us" style="color: #28398C;"
-                            class="p-2 lg:px-4 md:mx-2 rounded sizeMobile font-bold">تواصل معنا </a>
-                        {% endif %}
-
-                        <ul class="flex items-center gap-3">
-                            <!-- <li>
-                                <a href="ar.html" class="text-[#29398c]" title="Change locale"><i
-                                        class="fas fa-globe"></i> عربي</a>
-                            </li> -->
-                            <li class="text-2xl xl:hidden">
-                                <button type="button" class="py-2" aria-label="menu">
-                                    <i class="fa-solid fa-bars"></i>
-                                </button>
-                            </li>
-                            <li class="hidden md:block">
-                                <button type="button" class="base-btn rounded-lg text-white bg-[#28398C] p-2.5"><a href="/pages/contact-us">اتخذ خطوة</a></button>
-                            </li>
-                        </ul>
-
-
-
-
-
+                            class="p-2 lg:px-4 md:mx-2 rounded sizeMobile font-bold href-nav">تواصل معنا</a>
                     </div>
+
+                    <!-- Button aligned to the right -->
+                    <button type="button" class="base-btn rounded-lg p-[1.5px] bg-gradient-to-r from-[#3336cc] to-[#f6361d] w-[15%]">
+                        <div class="bg-white rounded-lg p-2.5">
+                            <a href="/pages/contact-us" class="text-[#28398C]  font-bold">
+                                اتخذ خطوة
+                            </a>
+                        </div>
+                    </button>
+
+
+                    <!-- <div class="hidden md:block ml-auto">
+                        <button type="button" class="base-btn rounded-lg text-white bg-gradient-to-r from-[#3336cc] to-[#f6361d] p-2.5">
+                            <a href="/pages/contact-us">اتخذ خطوة</a>
+                        </button>
+                    </div> -->
+
+
                 </div>
             </nav>
+
 
 
         </header>
@@ -255,23 +223,23 @@
                         <div class="mb-3">
                             <a aria-current="page" href="/en"
                                 class="router-link-active router-link-exact-active"><!----><img format="webp"
-                                    src="../images/logo-test.png" alt="logo" width="220"
-                                    height="65" loading="lazy"></a>
-                            <p class="text-sm text-base border-b max-w-[500px] py-3 border-[#e0e4f9] leading-8 font-semibold">لوجيسيل لاب هي شريكك الموثوق لتحقيق نجاحك في العالم الرقمي، مرحبا بك لدى شريكك المثالي لتكبير وإنجاح مشروعك.                            </p>
+                                    src="../images/logo-test.png" alt="logo" width="220" height="65" loading="lazy"></a>
+                            <p
+                                class="text-sm text-base border-b max-w-[500px] py-3 border-[#e0e4f9] leading-8 font-semibold">
+                                لوجيسيل لاب هي شريكك الموثوق لتحقيق نجاحك في العالم الرقمي، مرحبا بك لدى شريكك المثالي
+                                لتكبير وإنجاح مشروعك. </p>
                         </div>
                         <div class="social">
-                            <a href="https://www.tiktok.com/?lang=ar" target="_blank"
-                                aria-label="tik tok" title="tik tok"><i class="fab fa-tiktok"></i></a><a
-                                href="https://www.facebook.com" target="_blank" aria-label="facebook"
-                                title="facebook"><i class="fab fa-facebook"></i></a><a
-                                href="https://www.youtube.com/" target="_blank" aria-label="youtube"
-                                title="youtube"><i class="fab  fa-youtube"></i></a>
-                                <a href="https://x.com" target="_blank" aria-label="twitter" title="twitter">
-                                <i class="fa-brands fa-square-twitter"></i></a><a
-                                href="https://www.linkedin.com/compan" target="_blank"
-                                aria-label="linkedin" title="linkedin"><i class="fab  fa-linkedin-in"></i></a><a
-                                href="https://instagram.com" target="_blank" aria-label="instagram"
-                                title="instagram"><i class="fab  fa-instagram"></i></a>
+                            <a href="https://www.tiktok.com/?lang=ar" target="_blank" aria-label="tik tok"
+                                title="tik tok"><i class="fab fa-tiktok"></i></a><a href="https://www.facebook.com"
+                                target="_blank" aria-label="facebook" title="facebook"><i
+                                    class="fab fa-facebook"></i></a><a href="https://www.youtube.com/" target="_blank"
+                                aria-label="youtube" title="youtube"><i class="fab  fa-youtube"></i></a>
+                            <a href="https://x.com" target="_blank" aria-label="twitter" title="twitter">
+                                <i class="fa-brands fa-square-twitter"></i></a><a href="https://www.linkedin.com/compan"
+                                target="_blank" aria-label="linkedin" title="linkedin"><i
+                                    class="fab  fa-linkedin-in"></i></a><a href="https://instagram.com" target="_blank"
+                                aria-label="instagram" title="instagram"><i class="fab  fa-instagram"></i></a>
                         </div>
                     </div>
                     <div class="grid grid-cols-2 col-span-3 lg:col-span-2 xl:col-span-1">
@@ -315,7 +283,7 @@
                                     <div class="input_wrapper flex-1"><input type="email" id="email" name="email"
                                             placeholder="أدخل بريدك الإلكتروني"
                                             class="font-light border-[#D7DAEA] rounded-xl"></div>
-                                            <button type="submit" class="w-[120px] rounded-lg text-white px-4" disabled="">اشترك 
+                                    <button type="submit" class="w-[120px] rounded-lg text-white px-4" disabled="">اشترك
                                         <!----></button>
                                 </div><!---->
                             </form>
@@ -327,7 +295,7 @@
                                 <i class="fa-regular fa-copy text-xl"></i>
                             </button>
                         </div>
-                    
+
                         <!-- <div class="lang_and_currency">
                             <div class="lang"><a href="/" class="flex items-center gap-2" title="Change locale">
                                     <i class="fa-solid fa-globe"></i> عربي</a>
@@ -342,7 +310,7 @@
 
         </footer>
 
-        
+
 
 
         <!-- <div id="cookiePopup">

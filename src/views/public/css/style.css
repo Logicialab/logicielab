@@ -912,11 +912,11 @@ nav div a {
     position: relative;
 }
 
-nav div a::after {
+.href-nav::after {
     content: '';
     width: 0;
     height: 3px;
-    background: linear-gradient(90deg, #2a398c .9%, #8894da 63.63%, #fff6);
+    background: linear-gradient(90deg, #3336cc .9%, #f6361d 63.63%, #f6361d);
     position: absolute;
     left: 0;
     bottom: -1px;
