@@ -14,7 +14,7 @@
                         وإنجاح مشروعك في العالم الرقمي
                     </h1>
 
-                    <p class="font-bold text-lg text-[#737195] max-w-5xl ml-auto mr-auto my-3 leading-9">في شركة لوجسيل لاب،
+                    <p class="font-bold text-lg text-[#737195] max-w-5xl ml-auto mr-auto my-3 leading-10">في شركة لوجسيل لاب،
                         نؤمن
                         بقوة التكنلوجيا في تحقيق النجاح، وندرك أهمية التواجد الرقمي للنهوض بالمشاريع ومضاعفة أرباحها، لذلك
                         نقدم لكم
@@ -64,9 +64,9 @@
                     </div>
                 </div>
                 <!--
-                <div class="flex">
-                  <button type="button" class="base-btn text-xl rounded-lg text-white bg-[#28398C] p-3 px-6 mt-8">Contact Us</button>
-                </div> -->
+                    <div class="flex">
+                      <button type="button" class="base-btn text-xl rounded-lg text-white bg-[#28398C] p-3 px-6 mt-8">Contact Us</button>
+                    </div> -->
 
             </div>
         </div>
@@ -94,15 +94,9 @@
                         أهدافهم
                         بشكل فعال وتعزيز تواجدهم الرقمي بأفضل طريقة ممكنة. </div>
 
-                    <button type="button"
-                        class="base-btn text-xl rounded-lg text-[#28398c] hover:text-white bg-white hover:bg-[#28398c] p-[2px] mt-14 bg-gradient-to-r from-[#3336cc] to-[#f6361d]">
-                        <div class="bg-white rounded-lg p-2.5 px-8">
-                            <a href="/contact-us" class="text-[#28398c]">
-                                إكتشف أكثر
-                            </a>
-                            <i class="text-[#28398c] fa-solid fa-arrow-left mr-1"></i>
-                        </div>
-                    </button>
+                   
+
+                    <x-button name="إكتشف أكثر" url="/contact-us" />
 
                 </div>
 
@@ -448,15 +442,8 @@
 
             <div class="flex justify-center mt-6">
 
-                <button type="button"
-                    class="flex justify-center base-btn text-xl rounded-lg text-[#28398c] hover:text-white bg-white hover:bg-[#28398c] p-[2px] mt-14 bg-gradient-to-r from-[#3336cc] to-[#f6361d]">
-                    <div class="bg-white rounded-lg p-2.5 px-8">
-                        <a href="/contact-us" class="text-[#28398c]">
-                            عرض المزيد
-                        </a>
-                        <i class="text-[#28398c] fa-solid fa-arrow-left mr-1"></i>
-                    </div>
-                </button>
+                <x-button name="عرض المزيد" url="/contact-us" />
+
             </div>
 
 
@@ -514,17 +501,17 @@
                                 <h2 class="mt-auto text-text text-sm">Angular</h2>
                             </a>
                             <!-- <a data-wow-duration="1.3s" data-wow-delay="0.3s"
-                        class="flex flex-col items-center justify-center animated wow bounceIn animated" target="_blank"
-                        href="https://en.wikipedia.org/wiki/HTML"><img src="../images/html.jpg" width="55" height="55"
-                          alt="Html Front-End" loading="lazy" data-nuxt-img="" sizes="55px" class="mb-2 rounded-xl">
-                        <h2 class="mt-auto text-text text-sm">Html</h2>
-                      </a>
-                      <a data-wow-duration="1.3s" data-wow-delay="0.3s"
-                        class="flex flex-col items-center justify-center animated wow bounceIn animated" target="_blank"
-                        href="https://bootstrap.io/"><img src="../images/bootstrap.jpg" width="55" height="55"
-                          alt="bootstrap Front-End" loading="lazy" data-nuxt-img="" sizes="55px" class="mb-2 rounded-xl">
-                        <h2 class="mt-auto text-text text-sm">Bootstrap</h2>
-                      </a> -->
+                            class="flex flex-col items-center justify-center animated wow bounceIn animated" target="_blank"
+                            href="https://en.wikipedia.org/wiki/HTML"><img src="../images/html.jpg" width="55" height="55"
+                              alt="Html Front-End" loading="lazy" data-nuxt-img="" sizes="55px" class="mb-2 rounded-xl">
+                            <h2 class="mt-auto text-text text-sm">Html</h2>
+                          </a>
+                          <a data-wow-duration="1.3s" data-wow-delay="0.3s"
+                            class="flex flex-col items-center justify-center animated wow bounceIn animated" target="_blank"
+                            href="https://bootstrap.io/"><img src="../images/bootstrap.jpg" width="55" height="55"
+                              alt="bootstrap Front-End" loading="lazy" data-nuxt-img="" sizes="55px" class="mb-2 rounded-xl">
+                            <h2 class="mt-auto text-text text-sm">Bootstrap</h2>
+                          </a> -->
                             <a data-wow-duration="1.3s" data-wow-delay="0.3s"
                                 class="flex flex-col items-center justify-center animated wow bounceIn animated"
                                 target="_blank" href="https://tailwind.io/"><img src="../images/tailwind.jpg"
@@ -633,8 +620,8 @@
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 mb-8 text-3xl">التصميم </h5>
                         <div class="flex flex-wrap gap-8">
                             <a class="flex flex-col items-center justify-center animated wow bounceIn animated"
-                                target="_blank" href=""><img src="../images/adobe.jpg" width="55" height="55"
-                                    alt="Adobe XD Design" loading="lazy" data-nuxt-img="" sizes="55px"
+                                target="_blank" href=""><img src="../images/adobe.jpg" width="55"
+                                    height="55" alt="Adobe XD Design" loading="lazy" data-nuxt-img="" sizes="55px"
                                     class="mb-2 h-16 rounded-xl">
                                 <h2 class="mt-auto text-text text-sm">Adobe XD</h2>
                             </a>
@@ -651,9 +638,9 @@
                                 <h2 class="mt-auto text-text text-sm">Photoshop</h2>
                             </a>
                             <a class="flex flex-col items-center justify-center animated wow bounceIn animated"
-                                target="_blank" href="https://www.figma.com/"><img src="../images/figma.jpg" width="55"
-                                    height="55" alt="figma Design" loading="lazy" data-nuxt-img="" sizes="55px"
-                                    class="mb-2 h-16 rounded-xl">
+                                target="_blank" href="https://www.figma.com/"><img src="../images/figma.jpg"
+                                    width="55" height="55" alt="figma Design" loading="lazy" data-nuxt-img=""
+                                    sizes="55px" class="mb-2 h-16 rounded-xl">
                                 <h2 class="mt-auto text-text text-sm">Figma</h2>
                             </a>
                             <a class="flex flex-col items-center justify-center animated wow bounceIn animated"
@@ -664,7 +651,7 @@
                             </a>
                         </div>
                     </div>
-                   
+
                 </div>
 
 
@@ -692,10 +679,10 @@
                         المتكاملة والحلول الرقمية المبتكرة، التي تساعد عملاءنا على تحقيق أهدافهم بشكل فعال وتعزيز تواجدهم
                         الرقمي بأفضل
                         طريقة ممكنة. </p>
-                    <button style="border: 2px solid;" type="button"
-                        class="base-btn text-xl rounded-lg text-[#28398c] hover:text-white bg-white hover:bg-[#28398c] p-2.5 px-8 mt-8">
-                        <a href="/contact-us">الحصول على الخدمة</a> <i
-                            class="fa-solid fa-arrow-left mr-1"></i></button>
+                   
+
+                <x-button name="الحصول على الخدمة" url="/contact-us" />
+                    
                 </div>
 
 

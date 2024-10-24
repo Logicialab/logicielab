@@ -16,8 +16,8 @@
             </div>
             <div class="text-[#737195] text-lg">موقع إلكتروني وتطبيق صيدلي شامل مصمم لإحداث ثورة في طريقة حصول المرضى على الأدوية وخدمات الرعاية الصحية. تهدف هذه المنصة إلى توفير تجربة سلسة ومريحة للمستخدمين، مما يسمح لهم بإدارة الوصفات الطبية الخاصة بهم، وطلب الأدوية، والوصول إلى المعلومات الصحية الأساسية من منازلهم.            </div>
             <div class="mt-10">
-                <button style="border: 2px solid;" type="button"
-                    class="base-btn text-xl rounded-lg text-[#28398c] hover:text-white bg-white hover:bg-[#28398c] p-2.5 px-8 mt-12"> <a href="/pages/contact-us">الحصول على الخدمة</a> <i class="fa-solid fa-chevron-left text-base"></i></button>
+                <x-button name="الحصول على الخدمة" url="/contact-us" />
+
             </div>
         </div>
     </div>
@@ -39,8 +39,9 @@
             </div>
             <div class="text-[#737195] text-lg">نحن بحاجة إلى خدمات توصيل الطعام في كثير من الأحيان. بالنسبة لبعض الناس، فمن المهم جدا. المتعة تكمن في انتظار وصول الطعام، وتكتمل المتعة عندما يصل الطعام اللذيذ وتتناوله. صمم تطبيق توصيل الطعام الناجح معنا في لوجيسيل لاب.</div>
             <div class="mt-10">
-                <button style="border: 2px solid;" type="button"
-                    class="base-btn text-xl rounded-lg text-[#28398c] hover:text-white bg-white hover:bg-[#28398c] p-2.5 px-8 mt-12"> <a href="/pages/contact-us">الحصول على الخدمة</a> <i class="fa-solid fa-chevron-left text-base"></i></button>
+                <x-button name="الحصول على الخدمة" url="/contact-us" />
+
+                    
             </div>
         </div>
     </div>
@@ -62,8 +63,9 @@
             </div>
             <div class="text-[#737195] text-lg">هناك شريحة كبيرة من الأشخاص الذين يعتمدون فقط على طرق التسوق عبر الإنترنت دون طرق التسوق التقليدية الأخرى؛ وذلك لأنه يوفر لهم كل ما يحتاجونه أثناء جلوسهم في المنزل. ولهذا فإن تصميمك لتقديم الطلبات هو فكرة لمشروع ناجح للغاية.            </div>
             <div class="mt-10">
-                <button style="border: 2px solid;" type="button"
-                    class="base-btn text-xl rounded-lg text-[#28398c] hover:text-white bg-white hover:bg-[#28398c] p-2.5 px-8 mt-12"> <a href="/pages/contact-us">الحصول على الخدمة</a> <i class="fa-solid fa-chevron-left text-base"></i></button>
+
+             <x-button name="الحصول على الخدمة" url="/contact-us" />
+                
             </div>
         </div>
     </div>
@@ -151,8 +153,10 @@
             <h2 class="lg:text-4xl text-2xl font-bold capitalize max-w-[700px] leading-[2.2rem] lg:leading-[3.7rem] text-white">
                 ابدأ استشارة مجانية مع أحد الخبراء الآن!</h2>
             <p class="max-w-[600px] flex-1 text-white">نقوم بإجراء دراسة وتحليل شامل لمشروعك، للوصول إلى المفاهيم الأساسية.</p>
-            <button style="border: 2px solid;" type="button"
-            class="base-btn text-xl rounded-lg text-[#28398c] hover:text-white bg-white hover:bg-[#28398c] p-2.5 px-8 mt-12"> <a href="pages/contact-us"> ارسل  رسالتك </a> <i class="fa-solid fa-arrow-left mr-1"></i></button>
+
+
+            <x-button name="ارسل  رسالتك" url="/contact-us" />
+
         </div>
     </div>
 </section>

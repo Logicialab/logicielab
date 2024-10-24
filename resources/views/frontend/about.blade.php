@@ -35,9 +35,10 @@
               بشكل فعال وتعزيز تواجدهم الرقمي بأفضل طريقة ممكنة.</p>  
           </div>
   
-          <button style="border: 2px solid;" type="button"
-            class="base-btn text-xl rounded-lg text-[#28398c] hover:text-white bg-white hover:bg-[#28398c] p-2.5 px-8 mt-14">
-            <a href="/pages/contact-us">إكتشف أكثر</a> <i class="fa-solid fa-arrow-left mr-1"></i></button>
+
+
+            <x-button name="إكتشف أكثر" url="/contact-us" />
+            
         </div>
   
       </div>
@@ -153,9 +154,9 @@
             لماذا نحن ؟
           </h2>
           <p class="mb-5 text-base text-[#737195] leading-8 font-semibold">في شركة لوجسيل لاب، نؤمن بقوة التكنلوجيا في تحقيق النجاح، وندرك أهمية التواجد الرقمي للنهوض بالمشاريع ومضاعفة أرباحها، لذلك نقدم مجموعة شاملة من الخدمات المتكاملة والحلول الرقمية المبتكرة، التي تساعد عملاءنا على تحقيق أهدافهم بشكل فعال وتعزيز تواجدهم الرقمي بأفضل طريقة ممكنة.        </p>
-          <button style="border: 2px solid;" type="button"
-            class="base-btn text-xl rounded-lg text-[#28398c] hover:text-white bg-white hover:bg-[#28398c] p-2.5 px-8 mt-8">
-            <a href="/pages/contact-us">الحصول على الخدمة</a> <i class="fa-solid fa-arrow-left mr-1"></i></button>
+
+            <x-button name="الحصول على الخدمة" url="/contact-us" />
+            
         </div>
   
   
@@ -417,8 +418,9 @@
       <div class="md:!order-1">
         <h2 class="text-[#141324] lg:text-[54px] font-bold mb-5" data-aos="fade-up">احصل علي استشارة مجانية      </h2>
         <p class="font-light text-lg text-[#737195] max-w-xl font-semibold leading-8" data-aos="fade-up">نقوم بإجراء دراسة وتحليل شاملين لمشروعك للوصول إلى المفاهيم الأساسية.      </p>
-        <button style="border: 2px solid;" type="button"
-        class="base-btn text-xl rounded-lg text-[#28398c] hover:text-white bg-white hover:bg-[#28398c] p-2.5 px-8 mt-12"> <a href="pages/contact-us"> ارسل  رسالتك </a> <i class="fa-solid fa-arrow-left mr-1"></i></button>
+
+        <x-button name="ارسل  رسالتك" url="/contact-us" />
+
       </div>
       
      

@@ -13,8 +13,9 @@
             <p class="text-[#737195] text-lg max-w-[270px] lg:max-w-[550px]">
                 نقوم بإجراء دراسة وتحليل شاملين لمشروعك للوصول إلى المفاهيم الأساسية.</p>
             <div class="mt-10">
-                <button style="border: 2px solid;" type="button"
-                    class="base-btn text-xl rounded-lg text-[#28398c] hover:text-white bg-white hover:bg-[#28398c] p-2.5 px-8"> ارسل  رسالتك </button>
+
+            <x-button name="ارسل  رسالتك" url="/contact-us" />
+
             </div>
         </div>
     </div>

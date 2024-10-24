@@ -16,8 +16,9 @@
             </div>
             <div class="text-[#737195] text-lg">نقوم بإنشاء نظام لوجستي شامل يسهل التحكم في جميع العمليات التجارية التي تحتاجها. يشير النظام اللوجستي إلى تخطيط وتنظيم العمليات اللوجستية والإمدادات اللازمة لتحقيق هدف محدد، وغالباً ما يستخدم في الأعمال التجارية والصناعة.            </div>
             <div class="mt-10">
-                <button style="border: 2px solid;" type="button"
-                    class="base-btn text-xl rounded-lg text-[#28398c] hover:text-white bg-white hover:bg-[#28398c] p-2.5 px-8 mt-12"> <a href="/pages/contact-us">الحصول على الخدمة</a> <i class="fa-solid fa-chevron-left text-base"></i></button>
+
+            <x-button name="الحصول على الخدمة" url="/contact-us" />
+
             </div>
         </div>
     </div>
@@ -39,8 +40,8 @@
             <div class="text-[#737195] text-lg">لقد أصبحت التكنولوجيا مؤثرة في كل جانب من جوانب حياتنا تقريبًا، فلماذا لا تؤثر أيضًا على التعليم؟ لكي تقدم للطلاب أفضل الخدمات التعليمية، عليك التركيز على إنشاء نظام جيد يشمل جميع العناصر المهمة التي يحتاجونها.
             </div>
             <div class="mt-10">
-                <button style="border: 2px solid;" type="button"
-                    class="base-btn text-xl rounded-lg text-[#28398c] hover:text-white bg-white hover:bg-[#28398c] p-2.5 px-8 mt-12"> <a href="/pages/contact-us">الحصول على الخدمة</a> <i class="fa-solid fa-chevron-left text-base"></i></button>
+                <x-button name="الحصول على الخدمة" url="/contact-us" />
+
             </div>
         </div>
     </div>
