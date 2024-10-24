@@ -120,7 +120,7 @@
                         <i
                             class="fa-solid fa-tablet-screen-button text-3xl	text-[#194db4] bg-[#eaeff8] px-2.5 py-1 rounded-full ml-2.5"></i>
                         <h3 class="text-text font-semibold text-lg lg:text-xl mb-2">
-                            <a href="/mobile-app-design">تصميم وتطوير التطبيقات</a>
+                            <a href="/services/mobile-app-design">تصميم وتطوير التطبيقات</a>
                         </h3>
                     </div>
 
@@ -139,7 +139,7 @@
                         <i
                             class="fa-solid fa-code text-3xl text-[#bc145d] bg-[#fbeaf0] px-[9px] py-1.5 rounded-full ml-2.5"></i>
                         <h3 class="text-text font-semibold text-lg lg:text-xl line-clamp-1 mb-2">
-                            <a href="/web-design">تطوير المواقع</a>
+                            <a href="/services/web-design">تطوير المواقع</a>
                         </h3>
                     </div>
 
@@ -153,7 +153,7 @@
                         جميع الأجهزة وتصميم جذاب يلفت انتباه زوارك</p>
                 </div>
 
-                <div class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow mr-5" data-aos="zoom-in">
+                {{-- <div class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow mr-5" data-aos="zoom-in">
                     <div class="mb-3 flex items-center">
                         <i
                             class="fa-solid fa-people-group text-3xl text-[#24d360] bg-[#edfbf0] px-2.5 py-1 rounded-full ml-2.5"></i>
@@ -168,14 +168,14 @@
                         نقدم لك خدمة أنظمة الشركات (CRM & ERP) في لوجيسيل لاب، والتي تعد الحل المثالي لتلبية احتياجات
                         أعمالك،. دعنا
                         نساعدك في تحقيق النجاح وزيادة ربحيتك.</p>
-                </div>
+                </div> --}}
 
                 <div class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow mr-5" data-aos="zoom-in">
                     <div class="mb-3 flex items-center">
                         <i
                             class="fa-brands fa-soundcloud text-3xl text-[#47b796] bg-[#eef8f5] px-2.5 py-1 rounded-full ml-2.5"></i>
                         <h3 class="text-text font-semibold text-lg lg:text-xl line-clamp-1 mb-2">
-                            <a href="/cloud-hosting">الاستضافة السحابية</a>
+                            <a href="/services/cloud-hosting">الاستضافة السحابية</a>
                         </h3>
                     </div>
 
@@ -195,7 +195,7 @@
                         <i
                             class="fa-solid fa-chart-line text-3xl text-[#4b5797] bg-[#eceef5] px-1.5 py-1 rounded-full ml-2.5"></i>
                         <h3 class="text-text font-semibold text-lg lg:text-xl line-clamp-1 mb-2">
-                            <a href="/technical-analysis">التحليل الفني</a>
+                            <a href="/services/technical-analysis">التحليل الفني</a>
                         </h3>
                     </div>
                     <p class="font-normal text-[#737195] line-clamp-4 font-semibold leading-8	">هل ترغب في تحسين أداء مشروعك
@@ -212,7 +212,7 @@
                         <i
                             class="fa-solid fa-palette text-3xl text-[#bc145d] bg-[#eaeff8] px-1.5 py-1 rounded-full ml-2.5"></i>
                         <h3 class="text-text font-semibold text-lg lg:text-xl line-clamp-1 mb-2">
-                            <a href="/design-services">خدمات التصميم</a>
+                            <a href="/services/design-services">خدمات التصميم</a>
                         </h3>
                     </div>
                     <p class="font-normal text-[#737195] line-clamp-4 font-semibold leading-8	">اكتشف عالم التصميم مع
@@ -230,7 +230,7 @@
                         <i
                             class="fa-solid fa-database text-3xl text-[#2c8ba8] bg-[#eaf3f6] px-2.5 py-1 rounded-full ml-2.5"></i>
                         <h3 class="text-text font-semibold text-lg lg:text-xl line-clamp-1 mb-2">
-                            <a href="/software-testing">اختبار البرمجيات</a>
+                            <a href="/services/software-testing">اختبار البرمجيات</a>
                         </h3>
                     </div>
 
@@ -247,7 +247,7 @@
                         <i
                             class="fa-solid fa-list-check text-3xl text-[#bd618e] bg-[#f9eff3] px-2.5 py-1 rounded-full ml-2.5"></i>
                         <h3 class="text-text font-semibold text-lg lg:text-xl line-clamp-1 mb-2">
-                            <a href="/server-management">ادارة السيرفرات</a>
+                            <a href="/services/server-management">ادارة السيرفرات</a>
                         </h3>
                     </div>
 
@@ -271,7 +271,7 @@
                         <i
                             class="fa-solid fa-laptop-code text-3xl text-[#e82726] bg-[#feebeb] px-2.5 py-1 rounded-full ml-2.5"></i>
                         <h3 class="text-text font-semibold text-lg lg:text-xl line-clamp-1 mb-2">
-                            <a href="/web-hosting">استضافة الويب</a>
+                            <a href="/services/web-hosting">استضافة الويب</a>
                         </h3>
                     </div>
                     <p class="font-normal text-[#737195] line-clamp-4 font-semibold leading-8	">هل تبحث عن منصة استضافة
@@ -290,7 +290,7 @@
                         <i
                             class="fa-solid fa-server text-3xl text-[#388dbe] bg-[#edf4fa] px-2.5 py-1 rounded-full ml-2.5"></i>
                         <h3 class="text-text font-semibold text-lg lg:text-xl line-clamp-1 mb-2">
-                            <a href="/dedicated-server">الخادم الخاص</a>
+                            <a href="/services/dedicated-server">الخادم الخاص</a>
                         </h3>
                     </div>
                     <p class="font-normal text-[#737195] line-clamp-4 font-semibold leading-8	">احصل على القوة والأمان مع
@@ -306,7 +306,7 @@
                         <i
                             class="fa-solid fa-list-check text-3xl text-[#d57d40] bg-[#fcf3ec] px-2.5 py-1 rounded-full ml-2.5"></i>
                         <h3 class="text-text font-semibold text-lg lg:text-xl line-clamp-1 mb-2">
-                            <a href="/project-management">إدارة المشاريع</a>
+                            <a href="/services/project-management">إدارة المشاريع</a>
                         </h3>
                     </div>
                     <p class="font-normal text-[#737195] line-clamp-4 font-semibold leading-8	">تخيل أن لديك فرصة لتحويل

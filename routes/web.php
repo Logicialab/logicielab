@@ -1,5 +1,11 @@
 <?php
 
+use App\Http\Controllers\AboutController;
+use App\Http\Controllers\ContactUsController;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ServicesController;
+use App\Http\Controllers\SolutionController;
+use App\Http\Controllers\SystemsController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,92 +19,57 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('frontend.home');
-});
 
 
-Route::get('/about', function () {
-    return view('frontend.about');
-});
-
-
-Route::get('/services', function () {
-    return view('frontend.services');
-});
-
-
-Route::get('/solutions', function () {
-    return view('frontend.solutions');
-});
+Route::get('/', [HomeController::class, 'index'])->name('frontend.home');
 
 
 
-Route::get('/systems', function () {
-    return view('frontend.systems');
-});
+Route::get('/about', [AboutController::class, 'index'])->name('frontend.about');
 
 
-Route::get('/contact-us', function () {
-    return view('frontend.contact-us');
-});
-
-
-Route::get('/mobile-app-design', function () {
-    return view('frontend.services.mobile-app-design');
-});
-
-Route::get('/web-design', function () {
-    return view('frontend.services.web-design');
-});
-
-Route::get('/technical-analysis', function () {
-    return view('frontend.services.technical-analysis');
-});
-
-
-Route::get('/design-services', function () {
-    return view('frontend.services.design-services');
-});
-
-
-Route::get('/software-testing', function () {
-    return view('frontend.services.software-testing');
+Route::prefix('services')->name('services.')->group(function () {
+    Route::get('/', [ServicesController::class, 'index'])->name('index');
+    Route::get('/mobile-app-design', [ServicesController::class, 'mobileAppDesign'])->name('mobile.app.design');
+    Route::get('/web-design', [ServicesController::class, 'webDesign'])->name('web.design');
+    Route::get('/technical-analysis', [ServicesController::class, 'technicalAnalysis'])->name('technical.analysis');
+    Route::get('/design-services', [ServicesController::class, 'designServices'])->name('design.services');
+    Route::get('/software-testing', [ServicesController::class, 'softwareTesting'])->name('software.testing');
+    Route::get('/server-management', [ServicesController::class, 'serverManagement'])->name('server.management');
+    Route::get('/web-hosting', [ServicesController::class, 'webHosting'])->name('web.hosting');
+    Route::get('/dedicated-server', [ServicesController::class, 'dedicatedServer'])->name('dedicated.server');
+    Route::get('/digital-marketing', [ServicesController::class, 'digitalMarketing'])->name('digital.marketing');
 });
 
 
 
-Route::get('/server-management', function () {
-    return view('frontend.services.server-management');
-});
+Route::get('/solutions', [SolutionController::class, 'index'])->name('frontend.solutions');
+
+
+Route::get('/systems', [SystemsController::class, 'index'])->name('frontend.systems');
+
+
+Route::get('/contact-us', [ContactUsController::class, 'index'])->name('frontend.contact-us');
 
 
 
-Route::get('/web-hosting', function () {
-    return view('frontend.services.web-hosting');
-});
-
-
-Route::get('/dedicated-server', function () {
-    return view('frontend.services.dedicated-server');
-});
 
 
 
-Route::get('/project-management', function () {
-    return view('frontend.services.project-management');
-});
 
 
 
-Route::get('/technical-support', function () {
-    return view('frontend.services.technical-support');
-});
 
 
-Route::get('/digital-marketing', function () {
-    return view('frontend.services.digital-marketing');
-});
+
+
+
+
+
+
+
+
+
 
 
 
